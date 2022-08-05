@@ -1,0 +1,45 @@
+<?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Password Reset Language Lines
+    |--------------------------------------------------------------------------
+    |
+    | The following language lines are the default lines which match reasons
+    | that are given by the password broker for a password update attempt
+    | has failed, such as for an invalid token or invalid new password.
+    |
+    */
+
+   
+    'otp' => 'Halovi eCommerce OTP add-on',
+    'otp_des' => 'Nexmo || Twilio || sslwireless',
+    'available' => 'Only available For <span style="color: #e43d04"><strong>Supcovi CMS</strong></span></span><br /> <span style="color: #000000;font-size: 14px;font-family: verdana, geneva, sans-serif">[ M I N I M U M V E R S I O N : 2 . 8 ]</span>',
+    'standard' => '<b>Standard <span style="color: #ff0000">OTP </span>Featurs</b>',
+    'Mobile_Registration' => 'Mobile Number Registration',
+    'Mobile_Login' => 'Mobile Number Login',
+    'Reset_Password' => 'Reset Password',
+    'Order_SMS' => 'Order Notification SMS',
+    'Order_Notification' => 'Order Status Notification',
+    'Payment_Notification' => 'Payment Status Notification',
+    'Bulk_Send' => 'Bulk SMS Send',
+    'Config_Nexmo' => ' <strong><span style="color: #575a63">Config</span> <span style="color: #e62e04">Nexmo</span><span style="color: #575a63">/</span><span style="color: #0000ff"><span style="color: #e62e04">Twilio</span> </span><span style="color: #575a63">SMS gateway with proper credentials</span></strong>',
+    'SMS' => '<strong><span style="color: #575a63">Activate the</span><span style="color: #e62e04"> SMS</span> <span style="color: #575a63">gateway</span></strong>',
+    'Activate_SMS' => '<strong><span style="color: #e62e04">Activate </span><span style="color: #575a63">when you want to send an</span><span style="color: #e62e04"> SMS </span><span style="color: #575a63">notification</span></strong>',
+    'Customers_SMS' => '<strong><span style="color: #575a63">Customers will get</span> <span style="color: #e62e04">SMS </span><span style="color: #575a63">notifications during changes</span></strong>',
+    '' => '',
+    '' => '',
+    '' => '',
+    '' => '',
+    '' => '',
+    '' => '',
+    '' => '',
+    '' => '',
+    '' => '',
+    '' => '',
+    '' => '',
+    '' => '',
+
+];

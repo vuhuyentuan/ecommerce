@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!-- Mirrored from activeitzone.com/active-ecommerce-cms/pricing/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Mar 2021 04:45:49 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-title" content="Halovi - Team of Borderless Prospect">
+	<link rel="pingback" href="https://activeitzone.com/xmlrpc.php" /> <!-- This site is optimized with the Yoast SEO plugin v14.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<link media="all" href="<?php echo e(static_asset('wp-content/cache/autoptimize/css/autoptimize_0166d8bf76559b9c88813a89eb056ba3.css')); ?>" rel="stylesheet" />
+	<title>Halovi Ecommerce CMS Pricing</title>
+	<meta name="description" content="We are offering the best price for a total eCommerce solution. Purchasing a regular license will get lifetime update, 6-month technical &amp; zendesk support for a domain." />
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="index.html" />
+	<meta itemprop="image" content="<?php echo e(static_asset('assets/img/halovi_logo.png')); ?>">
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Halovi ecommerce pricing" />
+	<meta property="og:description" content="We are offering the best price for a total eCommerce solution. Purchasing a regular license will get lifetime update, 6-month technical &amp; zendesk support for a domain." />
+	<meta property="og:url" content="index.html" />
+	<meta property="og:site_name" content="Halovi" />
+	<meta property="article:publisher" content="https://www.facebook.com/activeitzone" />
+	<meta property="article:modified_time" content="2021-01-22T13:06:17+00:00" />
+	<meta property="og:image" content="<?php echo e(static_asset('assets/img/halovi_logo.ico')); ?>" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Halovi ecommerce pricing" />
+	<meta name="twitter:description" content="We are offering the best price for a total eCommerce solution. Purchasing a regular license will get lifetime update, 6-month technical &amp; zendesk support for a domain." />
+	<meta name="twitter:creator" content="@activeitzone" />
+	<meta name="twitter:site" content="@activeitzone" />
+	<script type="application/ld+json" class="yoast-schema-graph">
+		
+	</script> <!-- / Yoast SEO plugin. -->
+	<link rel='dns-prefetch' href='http://www.googletagmanager.com/' />
+	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+	<link rel='dns-prefetch' href='http://s.w.org/' />
+	<link rel='preconnect' href='https://fonts.gstatic.com/' crossorigin />
+	<link rel="alternate" type="application/rss+xml" title=" Feed" href="https://activeitzone.com/feed/" />
+	<link rel="alternate" type="application/rss+xml" title=" Comments Feed" href="https://activeitzone.com/comments/feed/" />
+	<script type="text/javascript">
+		window._wpemojiSettings = {
+			"baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/",
+			"ext": ".png",
+			"svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/",
+			"svgExt": ".svg",
+			"source": {
+				"concatemoji": "https:\/\/activeitzone.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.4"
+			}
+		};
+		/*! This file is auto-generated */
+		! function(e, a, t) {
+			var r, n, o, i, p = a.createElement("canvas"),
+				s = p.getContext && p.getContext("2d");
+
+			function c(e, t) {
+				var a = String.fromCharCode;
+				s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, e), 0, 0);
+				var r = p.toDataURL();
+				return s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, t), 0, 0), r === p.toDataURL()
+			}
+
+			function l(e) {
+				if (!s || !s.fillText) return !1;
+				switch (s.textBaseline = "top", s.font = "600 32px Arial", e) {
+					case "flag":
+						return !c([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) && (!c([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !c([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]));
+					case "emoji":
+						return !c([55357, 56424, 55356, 57342, 8205, 55358, 56605, 8205, 55357, 56424, 55356, 57340], [55357, 56424, 55356, 57342, 8203, 55358, 56605, 8203, 55357, 56424, 55356, 57340])
+				}
+				return !1
+			}
+
+			function d(e) {
+				var t = a.createElement("script");
+				t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+			}
+			for (i = Array("flag", "emoji"), t.supports = {
+					everything: !0,
+					everythingExceptFlag: !0
+				}, o = 0; o < i.length; o++) t.supports[i[o]] = l(i[o]), t.supports.everything = t.supports.everything && t.supports[i[o]], "flag" !== i[o] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[i[o]]);
+			t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function() {
+				t.DOMReady = !0
+			}, t.supports.everything || (n = function() {
+				t.readyCallback()
+			}, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
+				"complete" === a.readyState && t.readyCallback()
+			})), (r = t.source || {}).concatemoji ? d(r.concatemoji) : r.wpemoji && r.twemoji && (d(r.twemoji), d(r.wpemoji)))
+		}(window, document, window._wpemojiSettings);
+	</script>
+	<!--[if lt IE 9]><link rel='stylesheet' id='vc_lte_ie9-css'  href='https://activeitzone.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css?ver=6.0.4' type='text/css' media='screen' /> <![endif]-->
+	<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Nunito:400%7CMontserrat:700,500&amp;subset=latin&amp;display=swap&amp;ver=5.4.4" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400%7CMontserrat:700,500&amp;subset=latin&amp;display=swap&amp;ver=5.4.4" media="print" onload="this.media='all'"><noscript>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400%7CMontserrat:700,500&amp;subset=latin&amp;display=swap&amp;ver=5.4.4" />
+	</noscript>
+	<link rel='stylesheet' id='liquid-generated-responsive-css' href="<?php echo e(static_asset('wp-content/cache/autoptimize/css/autoptimize_single_c66be524a0ecc69faa23a28de3b8a2e8cea6.css?timestamp=1567422204&amp;ver=5.4.4')); ?>" type='text/css' media='all' />
+	<script type='text/javascript' src="<?php echo e(static_asset('wp-includes/js/jquery/jquery4a5f.js?ver=1.12.4-wp')); ?>"></script>
+	<script type='text/javascript'>
+		function testCSSVariables() {
+			var e = "rgb(255, 198, 0)",
+				o = document.createElement("span");
+			o.style.setProperty("--color", e), o.style.setProperty("background", "var(--color)"), document.body.appendChild(o);
+			var r = getComputedStyle(o).backgroundColor === e;
+			return document.body.removeChild(o), r
+		};
+	</script>
+	<script type='text/javascript' src='https://www.googletagmanager.com/gtag/js?id=UA-46777987-1' async></script>
+	<script type='text/javascript'>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag("js", new Date());
+		gtag("set", "developer_id.dZTNiMT", true);
+		gtag("config", "UA-46777987-1", {
+			"anonymize_ip": true
+		});
+	</script>
+	<link rel='https://api.w.org/' href='https://activeitzone.com/wp-json/' />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://activeitzone.com/xmlrpc.php?rsd" />
+	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://activeitzone.com/wp-includes/wlwmanifest.xml" />
+	<link rel='shortlink' href='https://activeitzone.com/?p=8840' />
+	<link rel="alternate" type="application/json+oembed" href="https://activeitzone.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Factiveitzone.com%2Factive-ecommerce-cms%2Fpricing%2F" />
+	<link rel="alternate" type="text/xml+oembed" href="https://activeitzone.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Factiveitzone.com%2Factive-ecommerce-cms%2Fpricing%2F&amp;format=xml" />
+	<meta name="framework" content="Redux 4.1.24" />
+	<meta name="generator" content="Site Kit by Google 1.25.0" />
+	<link rel="shortcut icon" href="<?php echo e(static_asset('assets/img/halovi_logo.ico')); ?>" /> <!-- For iPhone -->
+	<link rel="apple-touch-icon-precomposed" href="<?php echo e(static_asset('assets/img/halovi_logo.ico')); ?>"> <!-- For iPhone 4 Retina display -->
+	<link rel="apple-touch-icon" sizes="114x114" href="<?php echo e(static_asset('assets/img/halovi_logo.ico')); ?>"> <!-- For iPad -->
+	<link rel="apple-touch-icon" sizes="72x72" href="<?php echo e(static_asset('assets/img/halovi_logo.ico')); ?>"> <!-- For iPad Retina display -->
+	<link rel="apple-touch-icon" sizes="144x144" href="<?php echo e(static_asset('assets/img/halovi_logo.ico')); ?>">
+	<script type="text/javascript">
+		window.liquidParams = {
+			mobileNavBreakpoint: 1199
+		}
+	</script>
+	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+	<meta name="generator" content="Powered by Slider Revolution 6.2.10 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+	<link rel="icon" href="<?php echo e(static_asset('assets/img/halovi_logo.ico')); ?>" sizes="32x32" />
+	<link rel="icon" href="<?php echo e(static_asset('assets/img/halovi_logo.ico')); ?>" sizes="192x192" />
+	<link rel="apple-touch-icon" href="<?php echo e(static_asset('assets/img/halovi_logo.ico')); ?>" />
+	<meta name="msapplication-TileImage" content="<?php echo e(static_asset('assets/img/halovi_logo.ico')); ?>" />
+	<script type="text/javascript">
+		function setREVStartSize(e) {
+			//window.requestAnimationFrame(function() {				 
+			window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
+			window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
+			try {
+				var pw = document.getElementById(e.c).parentNode.offsetWidth,
+					newh;
+				pw = pw === 0 || isNaN(pw) ? window.RSIW : pw;
+				e.tabw = e.tabw === undefined ? 0 : parseInt(e.tabw);
+				e.thumbw = e.thumbw === undefined ? 0 : parseInt(e.thumbw);
+				e.tabh = e.tabh === undefined ? 0 : parseInt(e.tabh);
+				e.thumbh = e.thumbh === undefined ? 0 : parseInt(e.thumbh);
+				e.tabhide = e.tabhide === undefined ? 0 : parseInt(e.tabhide);
+				e.thumbhide = e.thumbhide === undefined ? 0 : parseInt(e.thumbhide);
+				e.mh = e.mh === undefined || e.mh == "" || e.mh === "auto" ? 0 : parseInt(e.mh, 0);
+				if (e.layout === "fullscreen" || e.l === "fullscreen")
+					newh = Math.max(e.mh, window.RSIH);
+				else {
+					e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+					for (var i in e.rl)
+						if (e.gw[i] === undefined || e.gw[i] === 0) e.gw[i] = e.gw[i - 1];
+					e.gh = e.el === undefined || e.el === "" || (Array.isArray(e.el) && e.el.length == 0) ? e.gh : e.el;
+					e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+					for (var i in e.rl)
+						if (e.gh[i] === undefined || e.gh[i] === 0) e.gh[i] = e.gh[i - 1];
+
+					var nl = new Array(e.rl.length),
+						ix = 0,
+						sl;
+					e.tabw = e.tabhide >= pw ? 0 : e.tabw;
+					e.thumbw = e.thumbhide >= pw ? 0 : e.thumbw;
+					e.tabh = e.tabhide >= pw ? 0 : e.tabh;
+					e.thumbh = e.thumbhide >= pw ? 0 : e.thumbh;
+					for (var i in e.rl) nl[i] = e.rl[i] < window.RSIW ? 0 : e.rl[i];
+					sl = nl[0];
+					for (var i in nl)
+						if (sl > nl[i] && nl[i] > 0) {
+							sl = nl[i];
+							ix = i;
+						}
+					var m = pw > (e.gw[ix] + e.tabw + e.thumbw) ? 1 : (pw - (e.tabw + e.thumbw)) / (e.gw[ix]);
+					newh = (e.gh[ix] * m) + (e.tabh + e.thumbh);
+				}
+				if (window.rs_init_css === undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));
+				document.getElementById(e.c).height = newh + "px";
+				window.rs_init_css.innerHTML += "#" + e.c + "_wrapper { height: " + newh + "px }";
+			} catch (e) {
+				console.log("Failure at Presize of Slider:" + e)
+			}
+			//});
+		};
+	</script> <!-- Facebook Pixel Code -->
+	<script>
+		! function(f, b, e, v, n, t, s) {
+			if (f.fbq) return;
+			n = f.fbq = function() {
+				n.callMethod ?
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n;
+			n.push = n;
+			n.loaded = !0;
+			n.version = '2.0';
+			n.queue = [];
+			t = b.createElement(e);
+			t.async = !0;
+			t.src = v;
+			s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'../../../connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '345924930025724');
+		fbq('track', 'PageView');
+	</script> <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=345924930025724&amp;ev=PageView&amp;noscript=1" /></noscript> <!-- End Facebook Pixel Code -->
+	<style id='liquid-stylesheet-inline-css' type='text/css'>
+		:root {
+			--color-primary: #377cff;
+			--color-gradient-start: #377cff;
+			--color-gradient-stop: #ea4335;
+		}
+
+		.woocommerce ul.products,
+		.woocommerce-page ul.products {
+			margin-left: -15px;
+			margin-right: -15px;
+		}
+
+		.woocommerce ul.products li.product,
+		.woocommerce-page ul.products li.product {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+
+		body {
+			font-family: Nunito;
+			font-weight: 400;
+			line-height: 1.8;
+			font-size: 15px;
+			color: #555555;
+		}
+
+		body.single-post .blog-single-title {
+			font-family: inherit;
+		}
+
+		body.single-post .content {
+			font-family: inherit;
+		}
+
+		.h1,
+		h1 {
+			font-family: Montserrat;
+			font-weight: 700;
+			line-height: 1.4em;
+			font-size: 57px;
+			color: #060221;
+		}
+
+		.h2,
+		h2 {
+			font-family: Montserrat;
+			font-weight: 700;
+			line-height: 1.4;
+			letter-spacing: 0px;
+			font-size: 44px;
+			color: #060221;
+		}
+
+		.h3,
+		h3 {
+			font-family: Montserrat;
+			font-weight: 700;
+			line-height: 1.5em;
+			font-size: 32px;
+			color: #060221;
+		}
+
+		.h4,
+		h4 {
+			font-family: Montserrat;
+			font-weight: 700;
+			line-height: 1.6em;
+			font-size: 26px;
+			color: #060221;
+		}
+
+		.h5,
+		h5 {
+			font-family: Montserrat;
+			font-weight: 500;
+			line-height: 1.6em;
+			font-size: 20px;
+			color: #060221;
+		}
+
+		.h6,
+		h6 {
+			font-family: Montserrat;
+			font-weight: 500;
+			line-height: 1.8;
+			font-size: 18px;
+			color: #060221;
+		}
+
+		.titlebar-inner h1 {
+			font-size: 50px;
+			font-weight: 600;
+			line-height: 1.15em;
+			color: #ffffff !important;
+		}
+
+		.titlebar-inner p {
+			font-size: 120px;
+			line-height: 120px;
+			letter-spacing: 1.15em;
+		}
+
+		.titlebar-inner {
+			padding-top: 125px;
+			padding-bottom: 125px;
+		}
+
+		.titlebar {
+			background-color: #ededed;
+			background-image: url(https://activeitzone.com/wp-content/uploads/2019/12/titlebar-bg.svg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+		}
+
+		.titlebar>.titlebar-overlay.ld-overlay {
+			background: linear-gradient(65deg, rgb(29, 225, 209) 0%, rgba(137, 135, 226, 0.084) 100%);
+		}
+
+		@media (min-width: 1200px) {
+			.main-header .is-stuck {
+				background: rgb(255, 255, 255) !important;
+			}
+
+			.mainbar-wrap.is-stuck .social-icon:not(.branded):not(.branded-text) a,
+			.mainbar-wrap.is-stuck .header-module .ld-module-trigger,
+			.mainbar-wrap.is-stuck .main-nav>li>a,
+			.mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input,
+			.mainbar-wrap.is-stuck .header-module .lqd-custom-menu>li>a {
+				color: rgb(0, 0, 0) !important;
+			}
+
+			.mainbar-wrap.is-stuck .mainbar-wrap.is-stuck .header-module .nav-trigger .bar {
+				background-color: rgb(0, 0, 0) !important;
+			}
+
+			.mainbar-wrap.is-stuck .header-module .ld-module-trigger-icon,
+			.mainbar-wrap.is-stuck .header-module .ld-module-trigger-txt {
+				color: inherit !important;
+			}
+
+			.mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input {
+				border-color: rgb(0, 0, 0) !important;
+			}
+
+			.mainbar-wrap.is-stuck .social-icon:not(.branded):not(.branded-text) a:hover,
+			.mainbar-wrap.is-stuck .main-nav>li>a:hover,
+			.mainbar-wrap.is-stuck .header-module .lqd-custom-menu>li>a:hover {
+				color: rgb(55, 124, 255) !important;
+			}
+		}
+
+		@media  screen and (max-width: 1199px) {
+			body[data-mobile-nav-style=modern]:before {
+				background: rgb(55, 124, 255);
+			}
+		}
+	</style><noscript>
+		<style>
+			.wpb_animate_when_almost_visible {
+				opacity: 1;
+			}
+		</style>
+	</noscript>
+	<style type="text/css" data-type="vc_shortcodes-custom-css">
+		.vc_custom_1590180158682 {
+			padding-top: 50px !important;
+			background-color: #1e1e27 !important;
+		}
+
+		.vc_custom_1590180234090 {
+			background-color: #1e1e27 !important;
+		}
+
+		.vc_custom_1588752206491 {
+			padding-top: 80px !important;
+		}
+
+		.vc_custom_1588749967984 {
+			border-top-width: 1px !important;
+			padding-top: 40px !important;
+			border-top-color: #202031 !important;
+			border-top-style: solid !important;
+		}
+
+		.vc_custom_1590178994484 {
+			padding-top: 20px !important;
+			padding-right: 20px !important;
+			padding-bottom: 20px !important;
+			padding-left: 20px !important;
+			background: #22222d url(<?php echo e(static_asset('wp-content/uploads/2020/05/banner97b9.jpg?id=10100')); ?>) !important;
+			border-radius: 5px !important;
+		}
+
+		.vc_custom_1590170789566 {
+			padding-top: 20px !important;
+			padding-right: 20px !important;
+			padding-bottom: 20px !important;
+			padding-left: 20px !important;
+			background-color: #22222d !important;
+			border-radius: 5px !important;
+		}
+
+		.vc_custom_1590170695168 {
+			padding-top: 20px !important;
+			padding-right: 20px !important;
+			padding-bottom: 20px !important;
+			padding-left: 20px !important;
+			background-color: #22222d !important;
+			border-radius: 5px !important;
+		}
+
+		.vc_custom_1590170625738 {
+			padding-top: 20px !important;
+			padding-right: 20px !important;
+			padding-bottom: 20px !important;
+			padding-left: 20px !important;
+			background-color: #22222d !important;
+			border-radius: 5px !important;
+		}
+
+		.vc_custom_1589883080669 {
+			border-top-width: 1px !important;
+			padding-top: 30px !important;
+			border-top-color: #3a3a48 !important;
+			border-top-style: solid !important;
+		}
+
+		.vc_custom_1577695459752 {
+			margin-bottom: 30px !important;
+		}
+
+		.vc_custom_1577697382596 {
+			margin-bottom: 30px !important;
+		}
+
+		.vc_custom_1577951749359 {
+			margin-top: 30px !important;
+			margin-bottom: 20px !important;
+		}
+
+		.vc_custom_1577952005120 {
+			padding-right: 20px !important;
+		}
+
+		.vc_custom_1577951928686 {
+			border-left-width: 1px !important;
+			padding-left: 20px !important;
+			border-left-color: #ededed !important;
+			border-left-style: solid !important;
+		}
+
+		.vc_custom_1577706744245 {
+			margin-bottom: 30px !important;
+		}
+
+		.vc_custom_1577706757656 {
+			margin-bottom: 30px !important;
+		}
+
+		.vc_custom_1577706790475 {
+			margin-bottom: 0px !important;
+		}
+	</style>
+</head>
+
+<body class="page-template-default page page-id-8840 page-child parent-pageid-6 wp-embed-responsive site-wide-layout lazyload-enabled wpb-js-composer js-comp-ver-6.0.4 vc_responsive" dir="ltr" itemscope="itemscope" itemtype="http://schema.org/WebPage" data-mobile-nav-style="modern" data-mobile-nav-scheme="dark" data-mobile-nav-trigger-alignment="right" data-mobile-header-scheme="light" data-mobile-secondary-bar="false" data-mobile-logo-alignment="default">
+	<script type="text/javascript">
+		(function() {
+			if (!testCSSVariables()) {
+				var script = document.createElement("script"),
+					body = document.querySelector("body");
+				script.onreadystatechange = function() {
+					if (this.readyState == 'complete' || this.readyState == 'loaded') {
+						cssVars();
+					}
+				};
+				script.onload = function() {
+					cssVars();
+				};
+				script.src = "assets/vendors/css-vars-ponyfill.min.html", body.insertBefore(script, body.lastChild);
+			};
+		}());
+	</script>
+	<div><span class="screen-reader-text">Skip links</span>
+		<ul class="liquid-skip-link screen-reader-text">
+			<li><a href="#primary" class="screen-reader-shortcut"> Skip to primary navigation</a></li>
+			<li><a href="#content" class="screen-reader-shortcut"> Skip to content</a></li>
+		</ul>
+	</div>
+	<div id="wrap">
+		<header class="header site-header main-header " data-sticky-header="true" data-sticky-options="{ &quot;stickyTrigger&quot;: &quot;first-section&quot; }" id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+			<div class="mainbar-wrap double-logo vc_custom_1586848512531 liquid-header-shadowbox-6057a9a0966c5"><span class="megamenu-hover-bg"></span>
+				<div class="container mainbar-container">
+					<div class="mainbar">
+						<div class="row mainbar-row align-items-lg-stretch">
+							<div class="col-auto vc_col-sm-4  ">
+								<div id="ld_header_image_6057a9a0967e3" class="navbar-header ld_header_image_6057a9a0967e3"> <a class="navbar-brand" href="http://halovi.com.vn/" rel="home"><span class="navbar-brand-inner"> <img class="mobile-logo-default" src="<?php echo e(static_asset('assets/img/halovi_logo.png')); ?>" alt="Halovi" /><img class="logo-default" src="<?php echo e(static_asset('assets/img/halovi_logo.png')); ?>" alt="Halovi" /></span></a> <button type="button" class="navbar-toggle collapsed nav-trigger style-mobile" data-toggle="collapse" data-target="#main-header-collapse" aria-expanded="false" data-changeclassnames='{ "html": "mobile-nav-activated overflow-hidden" }'> <span class="sr-only">Toggle navigation</span> <span class="bars"> <span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </span> </button></div><!-- /.navbar-header -->
+								<div class="header-module">
+									<div id="ld_header_separator_6057a9a09701f" class="ld-module-v-sep ld_header_separator_6057a9a09701f"> <span class="ld-v-sep-inner"></span></div><!-- /.ld-module-v-sep -->
+								</div>
+								<div id="ld_header_image_6057a9a097138" class="navbar-header ld_header_image_6057a9a097138"> <a class="navbar-brand" href="<?php echo e(route('quote.overview')); ?>" rel="home"><span class="navbar-brand-inner"><img class="logo-light" src="<?php echo e(static_asset('assets/img/ecommerce-logo-sm.svg')); ?>" alt="Halovi" /> <img class="mobile-logo-default" src="<?php echo e(static_asset('assets/img/halovi_logo.png')); ?>" alt="Halovi" /><img class="logo-default" src="<?php echo e(static_asset('assets/img/logo.png')); ?>" alt="Halovi" /></span></a> <button type="button" class="navbar-toggle collapsed nav-trigger style-mobile" data-toggle="collapse" data-target="#main-header-collapse" aria-expanded="false" data-changeclassnames='{ "html": "mobile-nav-activated overflow-hidden" }'> <span class="sr-only">Toggle navigation</span> <span class="bars"> <span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </span> </button></div><!-- /.navbar-header -->
+							</div>
+							<div class="col vc_col-sm-4   text-left">
+								<div class="collapse navbar-collapse ld_header_collapsed_6057a9a097927" id="main-header-collapse">
+									<ul id="menu-aiz-menu-ecommerce" class="main-nav ld_header_menu_6057a9a097ba9 main-nav-hover-underline-1 nav align-items-lg-stretch justify-content-lg-center" data-submenu-options='{"toggleType":"fade","handler":"mouse-in-out"}'>
+										<li id="menu-item-8056" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-page-parent menu-item-8056"><a href="<?php echo e(route('quote.overview')); ?>"><span class="link-icon"></span><span class="link-txt"><span class="link-ext"></span><span class="txt">Tổng Quan<span class="submenu-expander"> <i class="fa fa-angle-down"></i> </span></span></span></a></li>
+										<li id="menu-item-8203" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8203"><a href="<?php echo e(route('quote.features')); ?>"><span class="link-icon"></span><span class="link-txt"><span class="link-ext"></span><span class="txt">Chức Năng<span class="submenu-expander"> <i class="fa fa-angle-down"></i> </span></span></span></a></li>
+										<li id="menu-item-8843" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-8840 current_page_item menu-item-8843"><a href="#" aria-current="page"><span class="link-icon"></span><span class="link-txt"><span class="link-ext"></span><span class="txt">Giá Cả<span class="submenu-expander"> <i class="fa fa-angle-down"></i> </span></span></span></a></li>
+										<!-- <li id="menu-item-8057" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-8057"><a target="_blank" rel="noopener noreferrer" href="<?php echo e(route('quote.doc')); ?>"><span class="link-icon"></span><span class="link-txt"><span class="link-ext"></span><span class="txt">Documentation<span class="submenu-expander"> <i class="fa fa-angle-down"></i> </span></span></span></a></li> -->
+									</ul>
+								</div><!-- /.navbar-collapse -->
+							</div>
+							<div class="col vc_col-sm-4   text-right text-lg-right">
+								<div class="header-module"> <a href="#" target="_blank" class="btn btn-default text-capitalize btn-custom btn-custom-sized circle btn-bordered border-thin ld_header_button_6057a9a0bda57 ld_button_6057a9a0bdda2"> <span> <span class="btn-icon"><i class="fa fa-life-ring"></i></span> </span> </a></div>
+								<div class="header-module"> <a href="http://halovi.com.vn" target="_blank" class="btn btn-solid text-capitalize btn-custom btn-custom-sized circle btn-bordered border-thin ld_header_button_6057a9a0be025 ld_button_6057a9a0be121"> <span> <span class="btn-icon"><i class="icon-ion-ios-cart"></i></span> </span> </a></div>
+							</div>
+						</div><!-- /.row mainbar-row -->
+					</div><!-- /.mainbar -->
+				</div><!-- /.container -->
+			</div><!-- /.mainbar-wrap -->
+		</header>
+		<div class="titlebar text-center">
+			<div class="titlebar-inner">
+				<div class="container titlebar-container">
+					<div class="row titlebar-container">
+						<div class="titlebar-col col-md-12">
+							<h1 data-fittext="true" data-fittext-options='{ "maxFontSize": "currentFontSize", "minFontSize": 32 }'>Giá cả</h1>
+						</div><!-- /.col-md-12 -->
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</div><!-- /.titlebar-inner -->
+		</div><!-- /.titlebar -->
+		<main class="content" id="content">
+			<section class="vc_row wpb_row vc_row-fluid vc_custom_1580285975629 row-contains-padding-top row-contains-padding-bottom liquid-row-shadowbox-6057a9a0bff56">
+				<div class="ld-container container">
+					<div class="row ld-row">
+						
+						<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-offset-3 vc_col-md-6 liquid-column-6057a9a0c13e4">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper ">
+									<div class="wpb_wrapper-inner">
+										<div class="pricing-table featured pricing-table-agency ld_price_table_6057a9a0c155d">
+											<div class="pricing-table-header">
+												
+											</div><!-- /.pricing-table-head -->
+											
+											<div class="pricing-table-footer"> <a href="http://halovi.com.vn" target="_blank" class="btn btn-solid btn-lg circle btn-bordered border-thick ld_button_6057a9a0c1c52"> <span> <span class="btn-txt">Liên Hệ Chúng Tôi</span> </span> </a></div><!-- /.pricing-table-footer -->
+										</div><!-- /.pricing-table -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main><!-- #content -->
+		<!-- <footer class="main-footer site-footer footer" id="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+			<section class="vc_row wpb_row vc_row-fluid vc_custom_1588752206491 row-contains-padding-top liquid-row-shadowbox-6057a9a0c314f">
+				<div class="ld-container container">
+					<div class="row ld-row">
+						<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 liquid-column-6057a9a0c3546">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper vc_custom_1577695459752">
+									<div class="wpb_wrapper-inner">
+										<div class="wpb_single_image wpb_content_element vc_align_center  liquid_vc_single_image-6057a9a0ca2be">
+											<figure class="wpb_wrapper vc_figure">
+												<div class="vc_single_image-wrapper   vc_box_border_grey loaded "><img src="https://activeitzone.com/wp-content/uploads/2019/12/Asdssset-1.svg" class="vc_single_image-img attachment-thumbnail" alt="Halovi" height="352" width="352" /></div>
+											</figure>
+										</div>
+										<div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1577951749359 liquid_vc_single_image-6057a9a0d1faf">
+											<figure class="wpb_wrapper vc_figure">
+												<div class="vc_single_image-wrapper   vc_box_border_grey loaded "><img src="https://activeitzone.com/wp-content/uploads/2019/12/aiz-envato.svg" class="vc_single_image-img attachment-thumbnail" alt="" height="46" width="324" /></div>
+											</figure>
+										</div>
+										<div class="vc_row wpb_row vc_inner vc_row-fluid liquid-row-shadowbox-6057a9a0d2202 vc_column-gap-0">
+											<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-xs-6 liquid-column-6057a9a0d25ef">
+												<div class="vc_column-inner">
+													<div class="wpb_wrapper vc_custom_1577952005120">
+														<div class="wpb_wrapper-inner">
+															<div class="wpb_single_image wpb_content_element vc_align_right  liquid_vc_single_image-6057a9a0d9d49">
+																<figure class="wpb_wrapper vc_figure">
+																	<div class="vc_single_image-wrapper   vc_box_border_grey loaded "><img src="https://activeitzone.com/wp-content/uploads/2020/05/codecanyon-aiz.svg" class="vc_single_image-img attachment-thumbnail" alt="" height="48" width="179" /></div>
+																</figure>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-xs-6 liquid-column-6057a9a0da0f9 vc_col-has-fill">
+												<div class="vc_column-inner">
+													<div class="wpb_wrapper vc_custom_1577951928686">
+														<div class="wpb_wrapper-inner">
+															<div class="wpb_single_image wpb_content_element vc_align_left  liquid_vc_single_image-6057a9a0e304e">
+																<figure class="wpb_wrapper vc_figure">
+																	<div class="vc_single_image-wrapper   vc_box_border_grey loaded "><img src="https://activeitzone.com/wp-content/uploads/2020/05/envato-aiz.svg" class="vc_single_image-img attachment-thumbnail" alt="" height="48" width="161" /></div>
+																</figure>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-4 vc_col-sm-offset-1 liquid-column-6057a9a0e3438">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper vc_custom_1577697382596">
+									<div class="wpb_wrapper-inner">
+										<div class="ld-fancy-heading ld_fancy_heading_6057a9a0e356c">
+											<h5 class="lqd-highlight-underline lqd-highlight-grow-left h5"><span class="ld-fh-txt"> Products</span></h5>
+										</div>
+										<div class="vc_wp_custommenu wpb_content_element footer-menu">
+											<div class="widget widget_nav_menu">
+												<div class="menu-footer-products-container">
+													<ul id="menu-footer-products" class="menu">
+														<li id="menu-item-9972" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-9972"><a href="<?php echo e(route('quote.overview')); ?>">Halovi Ecommerce CMS</a></li>
+														<li id="menu-item-9975" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9975"><a href="https://activeitzone.com/active-super-shop/">Active Super Shop Multi-vendor CMS</a></li>
+														<li id="menu-item-9973" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9973"><a href="https://activeitzone.com/active-matrimonial-cms/">Active Matrimonial CMS</a></li>
+														<li id="menu-item-9974" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9974"><a href="https://activeitzone.com/active-newspaper-cms/">Active Newspaper CMS</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="ld-fancy-heading ld_fancy_heading_6057a9a0e4d47">
+											<h5 class="lqd-highlight-underline lqd-highlight-grow-left h5"><span class="ld-fh-txt"> Addons</span></h5>
+										</div>
+										<div class="vc_wp_custommenu wpb_content_element footer-menu">
+											<div class="widget widget_nav_menu">
+												<div class="menu-footer-addons-container">
+													<ul id="menu-footer-addons" class="menu">
+														<li id="menu-item-10419" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10419"><a href="https://activeitzone.com/active-ecommerce-seller-subscription-add-on/">Halovi eCommerce Seller Subscription add-on</a></li>
+														<li id="menu-item-10092" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10092"><a href="https://activeitzone.com/active-ecommerce-otp-add-on/">Halovi eCommerce OTP add-on</a></li>
+														<li id="menu-item-10089" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10089"><a href="https://activeitzone.com/active-ecommerce-affiliate-add-on/">Halovi eCommerce Affiliate add-on</a></li>
+														<li id="menu-item-10094" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10094"><a href="https://activeitzone.com/active-ecommerce-pos-manager-add-on/">Halovi eCommerce POS Manager Add-on</a></li>
+														<li id="menu-item-10095" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10095"><a href="https://activeitzone.com/active-ecommerce-refund-add-on/">Halovi eCommerce Refund add-on</a></li>
+														<li id="menu-item-10091" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10091"><a href="https://activeitzone.com/active-ecommerce-offline-payment-add-on/">Halovi eCommerce Offline Payment Add-on</a></li>
+														<li id="menu-item-10090" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10090"><a href="https://activeitzone.com/active-ecommerce-club-point-add-on/">Halovi eCommerce Club Point add-on</a></li>
+														<li id="menu-item-10093" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10093"><a href="https://activeitzone.com/active-ecommerce-paytm-add-on/">Halovi eCommerce Paytm add-on</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="wpb_column vc_column_container vc_col-sm-4 liquid-column-6057a9a0e7111">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper ">
+									<div class="wpb_wrapper-inner">
+										<div class="ld-fancy-heading ld_fancy_heading_6057a9a0e7360">
+											<h5 class="lqd-highlight-underline lqd-highlight-grow-left h5"><span class="ld-fh-txt"> Knowledge base</span></h5>
+										</div>
+										<div class="vc_wp_custommenu wpb_content_element footer-menu">
+											<div class="widget widget_nav_menu">
+												<div class="menu-footer-documentation-container">
+													<ul id="menu-footer-documentation" class="menu">
+														<li id="menu-item-9996" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-9996"><a href="../../docs/active-ecommerce-cms/index.html">Halovi eCommerce CMS</a></li>
+														<li id="menu-item-10002" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10002"><a href="https://activeitzone.com/docs/active-ecommerce-pos-manager-add-on/">Halovi eCommerce POS Manager Add-on</a></li>
+														<li id="menu-item-10428" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10428"><a href="https://activeitzone.com/docs/active-ecommerce-seller-subscription-add-on/">Halovi eCommerce Seller Subscription Add-on</a></li>
+														<li id="menu-item-10001" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10001"><a href="https://activeitzone.com/docs/active-ecommerce-paytm-add-on/">Halovi eCommerce Paytm add-on</a></li>
+														<li id="menu-item-9998" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-9998"><a href="https://activeitzone.com/docs/active-ecommerce-club-point-add-on/">Halovi eCommerce Club Point Add-on</a></li>
+														<li id="menu-item-9997" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-9997"><a href="https://activeitzone.com/docs/active-ecommerce-affiliate-add-on/">Halovi eCommerce Affiliate add-on</a></li>
+														<li id="menu-item-10003" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10003"><a href="https://activeitzone.com/docs/active-ecommerce-refund-add-on/">Halovi eCommerce Refund add-on</a></li>
+														<li id="menu-item-10000" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10000"><a href="https://activeitzone.com/docs/active-ecommerce-otp-add-on/">Halovi eCommerce OTP add-on</a></li>
+														<li id="menu-item-9999" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-9999"><a href="https://activeitzone.com/docs/active-ecommerce-offline-payment-add-on/">Halovi eCommerce Offline Payment Add-on</a></li>
+														<li id="menu-item-10004" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10004"><a href="https://activeitzone.com/docs/active-matrimonial-cms/">Active Matrimonial CMS</a></li>
+														<li id="menu-item-10005" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10005"><a href="https://activeitzone.com/docs/active-newspaper-cms/">Active Newspaper CMS</a></li>
+														<li id="menu-item-10006" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10006"><a href="https://activeitzone.com/docs/active-super-shop/">Active Super Shop</a></li>
+														<li id="menu-item-10841" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10841"><a href="https://activeitzone.com/docs/active-workdesk-cms/">Active Workdesk CMS</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="vc_row wpb_row vc_row-fluid vc_custom_1588749967984 row-contains-padding-top liquid-row-shadowbox-6057a9a0e9998 vc_row-has-fill vc_row-o-content-middle vc_row-flex">
+				<div class="ld-container container">
+					<div class="row ld-row">
+						<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-8 text-left text-md-left liquid-column-6057a9a0e9e2f">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper vc_custom_1577706744245">
+									<div class="wpb_wrapper-inner">
+										<div class="wpb_text_column wpb_content_element  vc_custom_1577706790475">
+											<div class="wpb_wrapper">
+												<p>© 2014 - 2020 Halovi  |  <a href="https://activeitzone.com/products-support-policy/">Products Support Policy</a>  |  <a href="https://activeitzone.com/customization-terms-policy/">Customization Terms &amp; Policy</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-4 text-center text-md-right liquid-column-6057a9a0ea507">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper vc_custom_1577706757656">
+									<div class="wpb_wrapper-inner">
+										<ul class="social-icon branded round social-icon-sm ld_social_icons_6057a9a0ea5bb" id=ld_social_icons_6057a9a0ea5bb>
+											<li><a href="https://www.facebook.com/activeitzone" target="_blank"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="https://twitter.com/activeitzone" target="_blank"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="https://www.youtube.com/channel/UCUYi7Y0C0n35uPRYkEh3iiw/" target="_blank"><i class="fa fa-youtube"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</footer> -->
+	</div><!-- .site-container -->
+	<script type='text/javascript'>
+		/* <![CDATA[ */
+		var liquidTheme = {
+			"uris": {
+				"ajax": "\/wp-admin\/admin-ajax.php"
+			}
+		};
+		/* ]]> */
+	</script>
+	<div id="fb-root"></div> <!-- Your customer chat code -->
+	<div class="fb-customerchat" attribution=setup_tool page_id="623725124311803"></div>
+	<script>
+		// window.fbAsyncInit = function() {
+		// 	FB.init({
+		// 		xfbml: true,
+		// 		version: 'v3.3'
+		// 	});
+		// };
+
+		// (function(d, s, id) {
+		// 	var js, fjs = d.getElementsByTagName(s)[0];
+		// 	if (d.getElementById(id)) return;
+		// 	js = d.createElement(s);
+		// 	js.id = id;
+		// 	js.src = '../../../connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+		// 	fjs.parentNode.insertBefore(js, fjs);
+		// }(document, 'script', 'facebook-jssdk'));
+	</script>
+	<script defer src="<?php echo e(static_asset('wp-content/cache/autoptimize/js/autoptimize_eb691b989269f7ab21dae00819f1c1d7.js')); ?>"></script>
+</body>
+<!-- Mirrored from activeitzone.com/active-ecommerce-cms/pricing/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Mar 2021 04:45:51 GMT -->
+
+</html>
+<!-- Page generated by LiteSpeed Cache 3.6.2 on 2021-03-21 20:16:32 --><?php /**PATH C:\xampp\htdocs\hec\resources\views/frontend/quote/pricing.blade.php ENDPATH**/ ?>

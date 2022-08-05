@@ -1,0 +1,215 @@
+@extends('frontend.quote.frontend')
+@section('content') 
+		<div class="titlebar text-center" style="background-image: url('../public/assets/img/titlebar-bg.svg')">
+			<div class="titlebar-inner">
+				<div class="container titlebar-container">
+					<div class="row titlebar-container">
+						<div class="titlebar-col col-md-12">
+							<div class="docs-titlebar">
+								<h1> @lang('doc.documents')</h1>
+							</div>
+						</div><!-- /.col-md-12 -->
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</div><!-- /.titlebar-inner -->
+		</div><!-- /.titlebar -->
+		<main class="content" id="content" style="margin-top: 50px;">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="doc-list-box">
+							<h3><a href="{{route('quote.document_detail.setup_and_configuration')}}">@lang('doc.Setup&Configuration')</a></h3>
+							<ul>
+								@foreach(explode('.', trans('doc.Setup&Configuration_content')) as $line)
+								<li class="text-truncate"><i class="fa fa-file-text-o"></i>{{$line}}</li>
+								@endforeach
+								<li class="see-all"><a href="{{route('quote.document_detail.setup_and_configuration')}}">@lang('doc.See_all_articles')</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="doc-list-box">
+							<h3><a href="{{route('quote.document_detail.manage_shop')}}">@lang('doc.Manage_Shop')</a></h3>
+							<ul>
+								@foreach(explode('.', trans('doc.Manage_Shop_content')) as $line)
+								<li class="text-truncate"><i class="fa fa-file-text-o"></i>{{$line}}</li>
+								@endforeach
+								<li class="see-all"><a href="{{route('quote.document_detail.manage_shop')}}">@lang('doc.See_all_articles')</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="doc-list-box">
+							<h3><a href="{{route('quote.document_detail.others')}}">@lang('doc.Others')</a></h3>
+							<ul>
+								@foreach(explode('.', trans('doc.Others_content')) as $line)
+								<li class="text-truncate"><i class="fa fa-file-text-o"></i>{{$line}}</li>
+								@endforeach
+								<li class="see-all"><a href="{{route('quote.document_detail.others')}}">@lang('doc.See_all_articles')</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main><!-- #content -->
+		<!-- <footer class="main-footer site-footer footer" id="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+			<section class="vc_row wpb_row vc_row-fluid vc_custom_1588752206491 row-contains-padding-top liquid-row-shadowbox-605738007e348">
+				<div class="ld-container container">
+					<div class="row ld-row">
+						<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 liquid-column-605738007e6cf">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper vc_custom_1577695459752">
+									<div class="wpb_wrapper-inner">
+										<div class="wpb_single_image wpb_content_element vc_align_center  liquid_vc_single_image-6057380085964">
+											<figure class="wpb_wrapper vc_figure">
+												<div class="vc_single_image-wrapper   vc_box_border_grey loaded "><img src="https://activeitzone.com/wp-content/uploads/2019/12/Asdssset-1.svg" class="vc_single_image-img attachment-thumbnail" alt="Halovi" height="352" width="352" /></div>
+											</figure>
+										</div>
+										<div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1577951749359 liquid_vc_single_image-605738008f8e0">
+											<figure class="wpb_wrapper vc_figure">
+												<div class="vc_single_image-wrapper   vc_box_border_grey loaded "><img src="https://activeitzone.com/wp-content/uploads/2019/12/aiz-envato.svg" class="vc_single_image-img attachment-thumbnail" alt="" height="46" width="324" /></div>
+											</figure>
+										</div>
+										<div class="vc_row wpb_row vc_inner vc_row-fluid liquid-row-shadowbox-605738008faa2 vc_column-gap-0">
+											<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-xs-6 liquid-column-605738008fdf2">
+												<div class="vc_column-inner">
+													<div class="wpb_wrapper vc_custom_1577952005120">
+														<div class="wpb_wrapper-inner">
+															<div class="wpb_single_image wpb_content_element vc_align_right  liquid_vc_single_image-605738009762b">
+																<figure class="wpb_wrapper vc_figure">
+																	<div class="vc_single_image-wrapper   vc_box_border_grey loaded "><img src="https://activeitzone.com/wp-content/uploads/2020/05/codecanyon-aiz.svg" class="vc_single_image-img attachment-thumbnail" alt="" height="48" width="179" /></div>
+																</figure>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-xs-6 liquid-column-6057380097a3f vc_col-has-fill">
+												<div class="vc_column-inner">
+													<div class="wpb_wrapper vc_custom_1577951928686">
+														<div class="wpb_wrapper-inner">
+															<div class="wpb_single_image wpb_content_element vc_align_left  liquid_vc_single_image-605738009f620">
+																<figure class="wpb_wrapper vc_figure">
+																	<div class="vc_single_image-wrapper   vc_box_border_grey loaded "><img src="https://activeitzone.com/wp-content/uploads/2020/05/envato-aiz.svg" class="vc_single_image-img attachment-thumbnail" alt="" height="48" width="161" /></div>
+																</figure>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-4 vc_col-sm-offset-1 liquid-column-605738009ff40">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper vc_custom_1577697382596">
+									<div class="wpb_wrapper-inner">
+										<div class="ld-fancy-heading ld_fancy_heading_60573800a0071">
+											<h5 class="lqd-highlight-underline lqd-highlight-grow-left h5"><span class="ld-fh-txt"> Products</span></h5>
+										</div>
+										<div class="vc_wp_custommenu wpb_content_element footer-menu">
+											<div class="widget widget_nav_menu">
+												<div class="menu-footer-products-container">
+													<ul id="menu-footer-products" class="menu">
+														<li id="menu-item-9972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9972"><a href="https://activeitzone.com/active-ecommerce-cms/">Halovi Ecommerce CMS</a></li>
+														<li id="menu-item-9975" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9975"><a href="https://activeitzone.com/active-super-shop/">Active Super Shop Multi-vendor CMS</a></li>
+														<li id="menu-item-9973" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9973"><a href="https://activeitzone.com/active-matrimonial-cms/">Active Matrimonial CMS</a></li>
+														<li id="menu-item-9974" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9974"><a href="https://activeitzone.com/active-newspaper-cms/">Active Newspaper CMS</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="ld-fancy-heading ld_fancy_heading_60573800a1e45">
+											<h5 class="lqd-highlight-underline lqd-highlight-grow-left h5"><span class="ld-fh-txt"> Addons</span></h5>
+										</div>
+										<div class="vc_wp_custommenu wpb_content_element footer-menu">
+											<div class="widget widget_nav_menu">
+												<div class="menu-footer-addons-container">
+													<ul id="menu-footer-addons" class="menu">
+														<li id="menu-item-10419" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10419"><a href="https://activeitzone.com/active-ecommerce-seller-subscription-add-on/">Halovi eCommerce Seller Subscription add-on</a></li>
+														<li id="menu-item-10092" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10092"><a href="https://activeitzone.com/active-ecommerce-otp-add-on/">Halovi eCommerce OTP add-on</a></li>
+														<li id="menu-item-10089" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10089"><a href="https://activeitzone.com/active-ecommerce-affiliate-add-on/">Halovi eCommerce Affiliate add-on</a></li>
+														<li id="menu-item-10094" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10094"><a href="https://activeitzone.com/active-ecommerce-pos-manager-add-on/">Halovi eCommerce POS Manager Add-on</a></li>
+														<li id="menu-item-10095" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10095"><a href="https://activeitzone.com/active-ecommerce-refund-add-on/">Halovi eCommerce Refund add-on</a></li>
+														<li id="menu-item-10091" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10091"><a href="https://activeitzone.com/active-ecommerce-offline-payment-add-on/">Halovi eCommerce Offline Payment Add-on</a></li>
+														<li id="menu-item-10090" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10090"><a href="https://activeitzone.com/active-ecommerce-club-point-add-on/">Halovi eCommerce Club Point add-on</a></li>
+														<li id="menu-item-10093" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10093"><a href="https://activeitzone.com/active-ecommerce-paytm-add-on/">Halovi eCommerce Paytm add-on</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="wpb_column vc_column_container vc_col-sm-4 liquid-column-60573800a5fa6">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper ">
+									<div class="wpb_wrapper-inner">
+										<div class="ld-fancy-heading ld_fancy_heading_60573800a6554">
+											<h5 class="lqd-highlight-underline lqd-highlight-grow-left h5"><span class="ld-fh-txt"> Knowledge base</span></h5>
+										</div>
+										<div class="vc_wp_custommenu wpb_content_element footer-menu">
+											<div class="widget widget_nav_menu">
+												<div class="menu-footer-documentation-container">
+													<ul id="menu-footer-documentation" class="menu">
+														<li id="menu-item-9996" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category current-menu-item menu-item-9996"><a href="index.html" aria-current="page">Halovi eCommerce CMS</a></li>
+														<li id="menu-item-10002" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10002"><a href="https://activeitzone.com/docs/active-ecommerce-pos-manager-add-on/">Halovi eCommerce POS Manager Add-on</a></li>
+														<li id="menu-item-10428" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10428"><a href="https://activeitzone.com/docs/active-ecommerce-seller-subscription-add-on/">Halovi eCommerce Seller Subscription Add-on</a></li>
+														<li id="menu-item-10001" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10001"><a href="https://activeitzone.com/docs/active-ecommerce-paytm-add-on/">Halovi eCommerce Paytm add-on</a></li>
+														<li id="menu-item-9998" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-9998"><a href="https://activeitzone.com/docs/active-ecommerce-club-point-add-on/">Halovi eCommerce Club Point Add-on</a></li>
+														<li id="menu-item-9997" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-9997"><a href="https://activeitzone.com/docs/active-ecommerce-affiliate-add-on/">Halovi eCommerce Affiliate add-on</a></li>
+														<li id="menu-item-10003" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10003"><a href="https://activeitzone.com/docs/active-ecommerce-refund-add-on/">Halovi eCommerce Refund add-on</a></li>
+														<li id="menu-item-10000" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10000"><a href="https://activeitzone.com/docs/active-ecommerce-otp-add-on/">Halovi eCommerce OTP add-on</a></li>
+														<li id="menu-item-9999" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-9999"><a href="https://activeitzone.com/docs/active-ecommerce-offline-payment-add-on/">Halovi eCommerce Offline Payment Add-on</a></li>
+														<li id="menu-item-10004" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10004"><a href="https://activeitzone.com/docs/active-matrimonial-cms/">Active Matrimonial CMS</a></li>
+														<li id="menu-item-10005" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10005"><a href="https://activeitzone.com/docs/active-newspaper-cms/">Active Newspaper CMS</a></li>
+														<li id="menu-item-10006" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10006"><a href="https://activeitzone.com/docs/active-super-shop/">Active Super Shop</a></li>
+														<li id="menu-item-10841" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10841"><a href="https://activeitzone.com/docs/active-workdesk-cms/">Active Workdesk CMS</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="vc_row wpb_row vc_row-fluid vc_custom_1588749967984 row-contains-padding-top liquid-row-shadowbox-60573800a9720 vc_row-has-fill vc_row-o-content-middle vc_row-flex">
+				<div class="ld-container container">
+					<div class="row ld-row">
+						<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-8 text-left text-md-left liquid-column-60573800a9f0f">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper vc_custom_1577706744245">
+									<div class="wpb_wrapper-inner">
+										<div class="wpb_text_column wpb_content_element  vc_custom_1577706790475">
+											<div class="wpb_wrapper">
+												<p>© 2014 - 2020 Halovi  |  <a href="https://activeitzone.com/products-support-policy/">Products Support Policy</a>  |  <a href="https://activeitzone.com/customization-terms-policy/">Customization Terms &amp; Policy</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-4 text-center text-md-right liquid-column-60573800aab93">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper vc_custom_1577706757656">
+									<div class="wpb_wrapper-inner">
+										<ul class="social-icon branded round social-icon-sm ld_social_icons_60573800aad20" id=ld_social_icons_60573800aad20>
+											<li><a href="https://www.facebook.com/activeitzone" target="_blank"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="https://twitter.com/activeitzone" target="_blank"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="https://www.youtube.com/channel/UCUYi7Y0C0n35uPRYkEh3iiw/" target="_blank"><i class="fa fa-youtube"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</footer> -->
+@endsection

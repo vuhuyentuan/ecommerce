@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!-- Mirrored from activeitzone.com/docs/active-ecommerce-cms/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Mar 2021 04:45:51 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-title" content="Active It Zone - Team of Borderless Prospect">
+	<link rel="pingback" href="https://activeitzone.com/xmlrpc.php" /> <!-- This site is optimized with the Yoast SEO plugin v14.3 - https://yoast.com/wordpress/plugins/seo/ -->
+	<link media="all" href="<?php echo e(static_asset('wp-content/cache/autoptimize/css/autoptimize_048144c09f609d5e3fbedb4abdd001bb.css')); ?>" rel="stylesheet" />
+	<title>Active eCommerce CMS Documentation | Active It Zone</title>
+	<meta name="description" content="We have a vast level of documentation. Articles will guide you proper use of this eCommerce system." />
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="index.html" />
+	<link rel="next" href="page/2/index.html" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Active eCommerce CMS documentation" />
+	<meta property="og:description" content="We have a vast level of documentation. Articles will guide you proper use of this eCommerce system." />
+	<meta property="og:url" content="index.html" />
+	<meta property="og:site_name" content="Active It Zone" />
+	<meta property="og:image" content="<?php echo e(static_asset('wp-content/uploads/2020/06/activeitzone.jpg')); ?>" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Active eCommerce CMS documentation" />
+	<meta name="twitter:description" content="We have a vast level of documentation. Articles will guide you proper use of this eCommerce system." />
+	<meta name="twitter:site" content="@activeitzone" />
+	<script type="application/ld+json" class="yoast-schema-graph">
+		{
+			"@context": "https://schema.org",
+			"@graph": [{
+				"@type": "Organization",
+				"@id": "https://activeitzone.com/#organization",
+				"name": "Activeitzone",
+				"url": "https://activeitzone.com/",
+				"sameAs": ["https://www.facebook.com/activeitzone", "https://www.youtube.com/c/ceoaiz/videos", "https://twitter.com/activeitzone"],
+				"logo": {
+					"@type": "ImageObject",
+					"@id": "https://activeitzone.com/#logo",
+					"inLanguage": "en-US",
+					"url": "https://activeitzone.com/wp-content/uploads/2019/12/Asdssset-1.svg",
+					"width": 352,
+					"height": 352,
+					"caption": "Activeitzone"
+				},
+				"image": {
+					"@id": "https://activeitzone.com/#logo"
+				}
+			}, {
+				"@type": "WebSite",
+				"@id": "https://activeitzone.com/#website",
+				"url": "https://activeitzone.com/",
+				"name": "Active It Zone",
+				"description": "Team of Borderless Prospect",
+				"publisher": {
+					"@id": "https://activeitzone.com/#organization"
+				},
+				"potentialAction": [{
+					"@type": "SearchAction",
+					"target": "https://activeitzone.com/?s={search_term_string}",
+					"query-input": "required name=search_term_string"
+				}],
+				"inLanguage": "en-US"
+			}, {
+				"@type": "CollectionPage",
+				"@id": "https://activeitzone.com/docs/active-ecommerce-cms/#webpage",
+				"url": "<?php echo e(route('quote.doc')); ?>",
+				"name": "Active eCommerce CMS Documentation | Active It Zone",
+				"isPartOf": {
+					"@id": "https://activeitzone.com/#website"
+				},
+				"description": "We have a vast level of documentation. Articles will guide you proper use of this eCommerce system.",
+				"inLanguage": "en-US"
+			}]
+		}
+	</script> <!-- / Yoast SEO plugin. -->
+	<link rel='dns-prefetch' href='http://www.googletagmanager.com/' />
+	<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
+	<link rel='dns-prefetch' href='http://s.w.org/' />
+	<link rel='preconnect' href='https://fonts.gstatic.com/' crossorigin />
+	<link rel="alternate" type="application/rss+xml" title="Active It Zone &raquo; Feed" href="https://activeitzone.com/feed/" />
+	<link rel="alternate" type="application/rss+xml" title="Active It Zone &raquo; Comments Feed" href="https://activeitzone.com/comments/feed/" />
+	<link rel="alternate" type="application/rss+xml" title="Active It Zone &raquo; Active eCommerce CMS Doc Category Feed" href="feed/index.html" />
+	<script type="text/javascript">
+		window._wpemojiSettings = {
+			"baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/",
+			"ext": ".png",
+			"svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/",
+			"svgExt": ".svg",
+			"source": {
+				"concatemoji": "https:\/\/activeitzone.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.4.4"
+			}
+		};
+		/*! This file is auto-generated */
+		! function(e, a, t) {
+			var r, n, o, i, p = a.createElement("canvas"),
+				s = p.getContext && p.getContext("2d");
+
+			function c(e, t) {
+				var a = String.fromCharCode;
+				s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, e), 0, 0);
+				var r = p.toDataURL();
+				return s.clearRect(0, 0, p.width, p.height), s.fillText(a.apply(this, t), 0, 0), r === p.toDataURL()
+			}
+
+			function l(e) {
+				if (!s || !s.fillText) return !1;
+				switch (s.textBaseline = "top", s.font = "600 32px Arial", e) {
+					case "flag":
+						return !c([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) && (!c([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !c([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]));
+					case "emoji":
+						return !c([55357, 56424, 55356, 57342, 8205, 55358, 56605, 8205, 55357, 56424, 55356, 57340], [55357, 56424, 55356, 57342, 8203, 55358, 56605, 8203, 55357, 56424, 55356, 57340])
+				}
+				return !1
+			}
+
+			function d(e) {
+				var t = a.createElement("script");
+				t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+			}
+			for (i = Array("flag", "emoji"), t.supports = {
+					everything: !0,
+					everythingExceptFlag: !0
+				}, o = 0; o < i.length; o++) t.supports[i[o]] = l(i[o]), t.supports.everything = t.supports.everything && t.supports[i[o]], "flag" !== i[o] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[i[o]]);
+			t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function() {
+				t.DOMReady = !0
+			}, t.supports.everything || (n = function() {
+				t.readyCallback()
+			}, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
+				"complete" === a.readyState && t.readyCallback()
+			})), (r = t.source || {}).concatemoji ? d(r.concatemoji) : r.wpemoji && r.twemoji && (d(r.twemoji), d(r.wpemoji)))
+		}(window, document, window._wpemojiSettings);
+	</script>
+	<!--[if lt IE 9]><link rel='stylesheet' id='vc_lte_ie9-css'  href='https://activeitzone.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css?ver=6.0.4' type='text/css' media='screen' /> <![endif]-->
+	<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Nunito:400%7CMontserrat:700,500&amp;subset=latin&amp;display=swap&amp;ver=5.4.4" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400%7CMontserrat:700,500&amp;subset=latin&amp;display=swap&amp;ver=5.4.4" media="print" onload="this.media='all'"><noscript>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400%7CMontserrat:700,500&amp;subset=latin&amp;display=swap&amp;ver=5.4.4" />
+	</noscript>
+	<link rel='stylesheet' id='liquid-generated-responsive-css' href='<?php echo e(static_asset('wp-content/cache/autoptimize/css/autoptimize_single_c66be524a0ecc69faa23a28de3b8a2e8cea6.css?timestamp=1567422204&amp;ver=5.4.4')); ?>' type='text/css' media='all' />
+	<script type='text/javascript' src='<?php echo e(static_asset('wp-includes/js/jquery/jquery4a5f.js?ver=1.12.4-wp')); ?>'></script>
+	<script type='text/javascript'>
+		function testCSSVariables() {
+			var e = "rgb(255, 198, 0)",
+				o = document.createElement("span");
+			o.style.setProperty("--color", e), o.style.setProperty("background", "var(--color)"), document.body.appendChild(o);
+			var r = getComputedStyle(o).backgroundColor === e;
+			return document.body.removeChild(o), r
+		};
+	</script>
+	<script type='text/javascript' src='https://www.googletagmanager.com/gtag/js?id=UA-46777987-1' async></script>
+	<script type='text/javascript'>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag("js", new Date());
+		gtag("set", "developer_id.dZTNiMT", true);
+		gtag("config", "UA-46777987-1", {
+			"anonymize_ip": true
+		});
+	</script>
+	<link rel='https://api.w.org/' href='https://activeitzone.com/wp-json/' />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://activeitzone.com/xmlrpc.php?rsd" />
+	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://activeitzone.com/wp-includes/wlwmanifest.xml" />
+	<meta name="framework" content="Redux 4.1.24" />
+	<meta name="generator" content="Site Kit by Google 1.25.0" />
+	<link rel="shortcut icon" href="https://activeitzone.com/wp-content/uploads/2019/12/aiz-logo-sm.svg" /> <!-- For iPhone -->
+	<link rel="apple-touch-icon-precomposed" href="https://activeitzone.com/wp-content/uploads/2019/12/aiz-logo-sm.svg"> <!-- For iPhone 4 Retina display -->
+	<link rel="apple-touch-icon" sizes="114x114" href="https://activeitzone.com/wp-content/uploads/2019/12/aiz-logo-sm.svg"> <!-- For iPad -->
+	<link rel="apple-touch-icon" sizes="72x72" href="https://activeitzone.com/wp-content/uploads/2019/12/aiz-logo-sm.svg"> <!-- For iPad Retina display -->
+	<link rel="apple-touch-icon" sizes="144x144" href="https://activeitzone.com/wp-content/uploads/2019/12/aiz-logo-sm.svg">
+	<script type="text/javascript">
+		window.liquidParams = {
+			mobileNavBreakpoint: 1199
+		}
+	</script>
+	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
+	<meta name="generator" content="Powered by Slider Revolution 6.2.10 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+	<link rel="icon" href="<?php echo e(static_asset('wp-content/uploads/2020/06/cropped-aiz-logo-32x32.png')); ?>" sizes="32x32" />
+	<link rel="icon" href="<?php echo e(static_asset('wp-content/uploads/2020/06/cropped-aiz-logo-192x192.png')); ?>" sizes="192x192" />
+	<link rel="apple-touch-icon" href="<?php echo e(static_asset('wp-content/uploads/2020/06/cropped-aiz-logo-180x180.png')); ?>" />
+	<meta name="msapplication-TileImage" content="https://activeitzone.com/wp-content/uploads/2020/06/cropped-aiz-logo-270x270.png" />
+	<script type="text/javascript">
+		function setREVStartSize(e) {
+			//window.requestAnimationFrame(function() {				 
+			window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
+			window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
+			try {
+				var pw = document.getElementById(e.c).parentNode.offsetWidth,
+					newh;
+				pw = pw === 0 || isNaN(pw) ? window.RSIW : pw;
+				e.tabw = e.tabw === undefined ? 0 : parseInt(e.tabw);
+				e.thumbw = e.thumbw === undefined ? 0 : parseInt(e.thumbw);
+				e.tabh = e.tabh === undefined ? 0 : parseInt(e.tabh);
+				e.thumbh = e.thumbh === undefined ? 0 : parseInt(e.thumbh);
+				e.tabhide = e.tabhide === undefined ? 0 : parseInt(e.tabhide);
+				e.thumbhide = e.thumbhide === undefined ? 0 : parseInt(e.thumbhide);
+				e.mh = e.mh === undefined || e.mh == "" || e.mh === "auto" ? 0 : parseInt(e.mh, 0);
+				if (e.layout === "fullscreen" || e.l === "fullscreen")
+					newh = Math.max(e.mh, window.RSIH);
+				else {
+					e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+					for (var i in e.rl)
+						if (e.gw[i] === undefined || e.gw[i] === 0) e.gw[i] = e.gw[i - 1];
+					e.gh = e.el === undefined || e.el === "" || (Array.isArray(e.el) && e.el.length == 0) ? e.gh : e.el;
+					e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+					for (var i in e.rl)
+						if (e.gh[i] === undefined || e.gh[i] === 0) e.gh[i] = e.gh[i - 1];
+
+					var nl = new Array(e.rl.length),
+						ix = 0,
+						sl;
+					e.tabw = e.tabhide >= pw ? 0 : e.tabw;
+					e.thumbw = e.thumbhide >= pw ? 0 : e.thumbw;
+					e.tabh = e.tabhide >= pw ? 0 : e.tabh;
+					e.thumbh = e.thumbhide >= pw ? 0 : e.thumbh;
+					for (var i in e.rl) nl[i] = e.rl[i] < window.RSIW ? 0 : e.rl[i];
+					sl = nl[0];
+					for (var i in nl)
+						if (sl > nl[i] && nl[i] > 0) {
+							sl = nl[i];
+							ix = i;
+						}
+					var m = pw > (e.gw[ix] + e.tabw + e.thumbw) ? 1 : (pw - (e.tabw + e.thumbw)) / (e.gw[ix]);
+					newh = (e.gh[ix] * m) + (e.tabh + e.thumbh);
+				}
+				if (window.rs_init_css === undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));
+				document.getElementById(e.c).height = newh + "px";
+				window.rs_init_css.innerHTML += "#" + e.c + "_wrapper { height: " + newh + "px }";
+			} catch (e) {
+				console.log("Failure at Presize of Slider:" + e)
+			}
+			//});
+		};
+	</script> <!-- Facebook Pixel Code -->
+	<script>
+		! function(f, b, e, v, n, t, s) {
+			if (f.fbq) return;
+			n = f.fbq = function() {
+				n.callMethod ?
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n;
+			n.push = n;
+			n.loaded = !0;
+			n.version = '2.0';
+			n.queue = [];
+			t = b.createElement(e);
+			t.async = !0;
+			t.src = v;
+			s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'../../../connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '345924930025724');
+		fbq('track', 'PageView');
+	</script> <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=345924930025724&amp;ev=PageView&amp;noscript=1" /></noscript> <!-- End Facebook Pixel Code -->
+	<style id='liquid-stylesheet-inline-css' type='text/css'>
+		:root {
+			--color-primary: #377cff;
+			--color-gradient-start: #377cff;
+			--color-gradient-stop: #ea4335;
+		}
+
+		.woocommerce ul.products,
+		.woocommerce-page ul.products {
+			margin-left: -15px;
+			margin-right: -15px;
+		}
+
+		.woocommerce ul.products li.product,
+		.woocommerce-page ul.products li.product {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+
+		body {
+			font-family: Nunito;
+			font-weight: 400;
+			line-height: 1.8;
+			font-size: 15px;
+			color: #555555;
+		}
+
+		body.single-post .blog-single-title {
+			font-family: inherit;
+		}
+
+		body.single-post .content {
+			font-family: inherit;
+		}
+
+		.h1,
+		h1 {
+			font-family: Montserrat;
+			font-weight: 700;
+			line-height: 1.4em;
+			font-size: 57px;
+			color: #060221;
+		}
+
+		.h2,
+		h2 {
+			font-family: Montserrat;
+			font-weight: 700;
+			line-height: 1.4;
+			letter-spacing: 0px;
+			font-size: 44px;
+			color: #060221;
+		}
+
+		.h3,
+		h3 {
+			font-family: Montserrat;
+			font-weight: 700;
+			line-height: 1.5em;
+			font-size: 32px;
+			color: #060221;
+		}
+
+		.h4,
+		h4 {
+			font-family: Montserrat;
+			font-weight: 700;
+			line-height: 1.6em;
+			font-size: 26px;
+			color: #060221;
+		}
+
+		.h5,
+		h5 {
+			font-family: Montserrat;
+			font-weight: 500;
+			line-height: 1.6em;
+			font-size: 20px;
+			color: #060221;
+		}
+
+		.h6,
+		h6 {
+			font-family: Montserrat;
+			font-weight: 500;
+			line-height: 1.8;
+			font-size: 18px;
+			color: #060221;
+		}
+
+		.titlebar-inner h1 {
+			font-size: 50px;
+			font-weight: 600;
+			line-height: 1.15em;
+			color: #ffffff !important;
+		}
+
+		.titlebar-inner p {
+			font-size: 120px;
+			line-height: 120px;
+			letter-spacing: 1.15em;
+		}
+
+		.titlebar-inner {
+			padding-top: 125px;
+			padding-bottom: 125px;
+		}
+
+		.titlebar {
+			background-color: #ededed;
+			background-image: url(https://activeitzone.com/wp-content/uploads/2019/12/titlebar-bg.svg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+		}
+
+		.titlebar>.titlebar-overlay.ld-overlay {
+			background: linear-gradient(65deg, rgb(29, 225, 209) 0%, rgba(137, 135, 226, 0.084) 100%);
+		}
+
+		@media (min-width: 1200px) {
+			.main-header .is-stuck {
+				background: rgb(255, 255, 255) !important;
+			}
+
+			.mainbar-wrap.is-stuck .social-icon:not(.branded):not(.branded-text) a,
+			.mainbar-wrap.is-stuck .header-module .ld-module-trigger,
+			.mainbar-wrap.is-stuck .main-nav>li>a,
+			.mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input,
+			.mainbar-wrap.is-stuck .header-module .lqd-custom-menu>li>a {
+				color: rgb(0, 0, 0) !important;
+			}
+
+			.mainbar-wrap.is-stuck .mainbar-wrap.is-stuck .header-module .nav-trigger .bar {
+				background-color: rgb(0, 0, 0) !important;
+			}
+
+			.mainbar-wrap.is-stuck .header-module .ld-module-trigger-icon,
+			.mainbar-wrap.is-stuck .header-module .ld-module-trigger-txt {
+				color: inherit !important;
+			}
+
+			.mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input {
+				border-color: rgb(0, 0, 0) !important;
+			}
+
+			.mainbar-wrap.is-stuck .social-icon:not(.branded):not(.branded-text) a:hover,
+			.mainbar-wrap.is-stuck .main-nav>li>a:hover,
+			.mainbar-wrap.is-stuck .header-module .lqd-custom-menu>li>a:hover {
+				color: rgb(55, 124, 255) !important;
+			}
+		}
+
+		@media  screen and (max-width: 1199px) {
+			body[data-mobile-nav-style=modern]:before {
+				background: rgb(55, 124, 255);
+			}
+		}
+	</style><noscript>
+		<style>
+			.wpb_animate_when_almost_visible {
+				opacity: 1;
+			}
+		</style>
+	</noscript>
+	<style type="text/css" data-type="vc_shortcodes-custom-css">
+		.vc_custom_1590180158682 {
+			padding-top: 50px !important;
+			background-color: #1e1e27 !important;
+		}
+
+		.vc_custom_1590180234090 {
+			background-color: #1e1e27 !important;
+		}
+
+		.vc_custom_1588752206491 {
+			padding-top: 80px !important;
+		}
+
+		.vc_custom_1588749967984 {
+			border-top-width: 1px !important;
+			padding-top: 40px !important;
+			border-top-color: #202031 !important;
+			border-top-style: solid !important;
+		}
+
+		.vc_custom_1590178994484 {
+			padding-top: 20px !important;
+			padding-right: 20px !important;
+			padding-bottom: 20px !important;
+			padding-left: 20px !important;
+			background: #22222d url(<?php echo e(static_asset('wp-content/uploads/2020/05/banner97b9.jpg?id=10100')); ?>) !important;
+			border-radius: 5px !important;
+		}
+
+		.vc_custom_1590170789566 {
+			padding-top: 20px !important;
+			padding-right: 20px !important;
+			padding-bottom: 20px !important;
+			padding-left: 20px !important;
+			background-color: #22222d !important;
+			border-radius: 5px !important;
+		}
+
+		.vc_custom_1590170695168 {
+			padding-top: 20px !important;
+			padding-right: 20px !important;
+			padding-bottom: 20px !important;
+			padding-left: 20px !important;
+			background-color: #22222d !important;
+			border-radius: 5px !important;
+		}
+
+		.vc_custom_1590170625738 {
+			padding-top: 20px !important;
+			padding-right: 20px !important;
+			padding-bottom: 20px !important;
+			padding-left: 20px !important;
+			background-color: #22222d !important;
+			border-radius: 5px !important;
+		}
+
+		.vc_custom_1589883080669 {
+			border-top-width: 1px !important;
+			padding-top: 30px !important;
+			border-top-color: #3a3a48 !important;
+			border-top-style: solid !important;
+		}
+
+		.vc_custom_1577695459752 {
+			margin-bottom: 30px !important;
+		}
+
+		.vc_custom_1577697382596 {
+			margin-bottom: 30px !important;
+		}
+
+		.vc_custom_1577951749359 {
+			margin-top: 30px !important;
+			margin-bottom: 20px !important;
+		}
+
+		.vc_custom_1577952005120 {
+			padding-right: 20px !important;
+		}
+
+		.vc_custom_1577951928686 {
+			border-left-width: 1px !important;
+			padding-left: 20px !important;
+			border-left-color: #ededed !important;
+			border-left-style: solid !important;
+		}
+
+		.vc_custom_1577706744245 {
+			margin-bottom: 30px !important;
+		}
+
+		.vc_custom_1577706757656 {
+			margin-bottom: 30px !important;
+		}
+
+		.vc_custom_1577706790475 {
+			margin-bottom: 0px !important;
+		}
+	</style>
+</head>
+
+<body class="archive tax-docs_category term-active-ecommerce-cms term-100 wp-embed-responsive site-wide-layout lazyload-enabled wpb-js-composer js-comp-ver-6.0.4 vc_responsive" dir="ltr" itemscope="itemscope" itemtype="http://schema.org/Blog" data-mobile-nav-style="modern" data-mobile-nav-scheme="dark" data-mobile-nav-trigger-alignment="right" data-mobile-header-scheme="light" data-mobile-secondary-bar="false" data-mobile-logo-alignment="default">
+	<script type="text/javascript">
+		(function() {
+			if (!testCSSVariables()) {
+				var script = document.createElement("script"),
+					body = document.querySelector("body");
+				script.onreadystatechange = function() {
+					if (this.readyState == 'complete' || this.readyState == 'loaded') {
+						cssVars();
+					}
+				};
+				script.onload = function() {
+					cssVars();
+				};
+				script.src = "assets/vendors/css-vars-ponyfill.min.html", body.insertBefore(script, body.lastChild);
+			};
+		}());
+	</script>
+	<div><span class="screen-reader-text">Skip links</span>
+		<ul class="liquid-skip-link screen-reader-text">
+			<li><a href="#primary" class="screen-reader-shortcut"> Skip to primary navigation</a></li>
+			<li><a href="#content" class="screen-reader-shortcut"> Skip to content</a></li>
+		</ul>
+	</div>
+	<div id="wrap">
+		<header class="header site-header main-header " data-sticky-header="true" data-sticky-options="{ &quot;stickyTrigger&quot;: &quot;first-section&quot; }" id="header" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+			<div class="mainbar-wrap  vc_custom_1578294213506 "><span class="megamenu-hover-bg"></span>
+				<div class="container mainbar-container">
+					<div class="mainbar">
+						<div class="row mainbar-row align-items-lg-stretch">
+							<div class="col-auto vc_col-sm-4  ">
+								<div id="ld_header_image_6057380058187" class="navbar-header ld_header_image_6057380058187"> <a class="navbar-brand" href="https://activeitzone.com/" rel="home"><span class="navbar-brand-inner"> <img class="mobile-logo-default" src="https://activeitzone.com/wp-content/uploads/2019/12/aiz-logo-sm.svg" alt="Active It Zone" /><img class="logo-default" src="https://activeitzone.com/wp-content/uploads/2019/12/aiz-logo-1.svg" alt="Active It Zone" /></span></a> <button type="button" class="navbar-toggle collapsed nav-trigger style-mobile" data-toggle="collapse" data-target="#main-header-collapse" aria-expanded="false" data-changeclassnames='{ "html": "mobile-nav-activated overflow-hidden" }'> <span class="sr-only">Toggle navigation</span> <span class="bars"> <span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </span> </button></div><!-- /.navbar-header -->
+							</div>
+							<div class="col vc_col-sm-4   text-left text-xs-left">
+								<div class="collapse navbar-collapse ld_header_collapsed_6057380058b24" id="main-header-collapse">
+									<ul id="primary-nav" class="main-nav ld_header_menu_6057380058cd1 main-nav-hover-underline-1 nav align-items-lg-stretch justify-content-lg-center" data-submenu-options='{"toggleType":"fade","handler":"mouse-in-out"}' data-localscroll="true">
+										
+									</ul>
+								</div><!-- /.navbar-collapse -->
+							</div>
+							<div class="col vc_col-sm-4   text-right text-lg-right">
+								<div class="header-module"> <a href="https://www.youtube.com/watch?v=zW6FwRsaxDk" class="btn btn-naked text-capitalize fresco btn-icon-left btn-icon-sm btn-icon-circle btn-icon-solid btn-icon-ripple ld_header_button_6057380078215 ld_button_6057380078889"> <span> <span class="btn-txt">Promo</span> <span class="btn-icon"><i class="fa fa-play"></i></span> </span> </a></div>
+								<div class="header-module"> <a href="https://codecanyon.net/user/activeitzone/portfolio" target="_blank" class="btn btn-default text-capitalize btn-xsm circle btn-bordered border-thin ld_header_button_6057380078a5d ld_button_6057380078b8e vc_custom_1578733769832"> <span> <span class="btn-txt">Envato Portfolio</span> </span> </a></div>
+								<div class="header-module"> <a href="http://support.activeitzone.com/" target="_blank" class="btn btn-solid text-capitalize btn-custom btn-custom-sized circle btn-bordered border-thin ld_header_button_6057380078d99 ld_button_6057380078e62 vc_custom_1591261781300"> <span> <span class="btn-icon"><i class="icon-basic_life_buoy"></i></span> </span> </a></div>
+							</div>
+						</div><!-- /.row mainbar-row -->
+					</div><!-- /.mainbar -->
+				</div><!-- /.container -->
+			</div><!-- /.mainbar-wrap -->
+		</header>
+		<div class="titlebar text-center">
+			<div class="titlebar-inner">
+				<div class="container titlebar-container">
+					<div class="row titlebar-container">
+						<div class="titlebar-col col-md-12">
+							<div class="docs-titlebar">
+								<h1> Articles for -
+									Active eCommerce CMS</h1>
+							</div>
+							<div class="mt-5">
+								<form method="get" class="doc-search-form" action="https://activeitzone.com/"> <input type="search" size="16" name="s" value="" placeholder="Search.." /> <input type="hidden" name="docs_category" id="cat" value="100" /> <input type="submit" value="Search" /></form>
+							</div>
+						</div><!-- /.col-md-12 -->
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</div><!-- /.titlebar-inner -->
+		</div><!-- /.titlebar -->
+		<main class="content" id="content">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="doc-list-box">
+							<h3><a href="https://activeitzone.com/docs/ecommerce-installation-and-upgrade/">Installation &amp; Upgrade</a></h3>
+							<ul>
+								<li class="text-truncate"><i class="fa fa-file-text-o"></i><a href="https://activeitzone.com/doc/ecommerce-upgrade-to-latest-version/">Upgrade to Latest Version</a></li>
+								<li class="text-truncate"><i class="fa fa-file-text-o"></i><a href="https://activeitzone.com/doc/ecommerce-download-latest-version/">Download latest version</a></li>
+								<li class="text-truncate"><i class="fa fa-file-text-o"></i><a href="https://activeitzone.com/doc/ecommerce-activate-the-script/">Activate the script</a></li>
+								<li class="text-truncate"><i class="fa fa-file-text-o"></i><a href="https://activeitzone.com/doc/ecommerce-quick-installation/">Quick Installation</a></li>
+								<li class="see-all"><a href="https://activeitzone.com/docs/ecommerce-installation-and-upgrade/">See all 5 articles</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="doc-list-box">
+							<h3><a href="https://activeitzone.com/docs/ecommerce-setup-and-configuration/">Setup &amp; Configuration</a></h3>
+							<ul>
+								<li class="text-truncate"><i class="fa fa-file-text-o"></i><a href="https://activeitzone.com/doc/which-options-are-translatable-in-multi-language/">Which options are translatable in multi Language?</a></li>
+								<li class="text-truncate"><i class="fa fa-file-text-o"></i><a href="https://activeitzone.com/doc/translate-product-information-in-multiple-languages/">Translate product information in multiple languages</a></li>
+								<li class="text-truncate"><i class="fa fa-file-text-o"></i><a href="https://activeitzone.com/doc/ecommerce-how-to-manage-shipping-for-product/">How to Manage Shipping for Product</a></li>
+								<li class="text-truncate"><i class="fa fa-file-text-o"></i><a href="https://activeitzone.com/doc/ecommerce-manage-general-settings/">Manage General Settings</a></li>
+								<li class="see-all"><a href="https://activeitzone.com/docs/ecommerce-setup-and-configuration/">See all 15 articles</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="doc-list-box">
+							<h3><a href="https://activeitzone.com/docs/ecommerce-manage-shop/">Manage Shop</a></h3>
+							<ul>
+								<li class="text-truncate"><i class="fa fa-file-text-o"></i><a href="https://activeitzone.com/doc/how-to-products-bulk-upload/">How to Upload Bulk Products</a></li>
+								<li class="text-truncate"><i class="fa fa-file-text-o"></i><a href="https://activeitzone.com/doc/ecommerce-how-to-pay-payment-for-sellers-withdraw-request/">How to Pay Payment for Seller&#8217;s Withdraw Request</a></li>
+								<li class="text-truncate"><i class="fa fa-file-text-o"></i><a href="https://activeitzone.com/doc/ecommerce-manage-pick-up-point/">Manage Pick-up Point</a></li>
+								<li class="text-truncate"><i class="fa fa-file-text-o"></i><a href="https://activeitzone.com/doc/ecommerce-how-to-manager-coupon/">How to Manage Coupon</a></li>
+								<li class="see-all"><a href="https://activeitzone.com/docs/ecommerce-manage-shop/">See all 10 articles</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="doc-list-box">
+							<h3><a href="https://activeitzone.com/docs/ecommerce-others/">Others</a></h3>
+							<ul>
+								<li class="text-truncate"><i class="fa fa-file-text-o"></i><a href="https://activeitzone.com/doc/ecommerce-how-to-request-money-withdraw-as-seller/">How to Request Money Withdraw as Seller</a></li>
+								<li class="text-truncate"><i class="fa fa-file-text-o"></i><a href="https://activeitzone.com/doc/ecommerce-how-to-use-coupon/">How to Use Coupon</a></li>
+								<li class="text-truncate"><i class="fa fa-file-text-o"></i><a href="https://activeitzone.com/doc/ecommerce-how-to-manage-wallet/">How to Manage Wallet</a></li>
+								<li class="text-truncate"><i class="fa fa-file-text-o"></i><a href="https://activeitzone.com/doc/how-to-send-newsletter-2/">How to Send Newsletter</a></li>
+								<li class="see-all"><a href="https://activeitzone.com/docs/ecommerce-others/">See all 5 articles</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main><!-- #content -->
+		<!-- <footer class="main-footer site-footer footer" id="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+			<section class="vc_row wpb_row vc_row-fluid vc_custom_1588752206491 row-contains-padding-top liquid-row-shadowbox-605738007e348">
+				<div class="ld-container container">
+					<div class="row ld-row">
+						<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-3 liquid-column-605738007e6cf">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper vc_custom_1577695459752">
+									<div class="wpb_wrapper-inner">
+										<div class="wpb_single_image wpb_content_element vc_align_center  liquid_vc_single_image-6057380085964">
+											<figure class="wpb_wrapper vc_figure">
+												<div class="vc_single_image-wrapper   vc_box_border_grey loaded "><img src="https://activeitzone.com/wp-content/uploads/2019/12/Asdssset-1.svg" class="vc_single_image-img attachment-thumbnail" alt="active it zone" height="352" width="352" /></div>
+											</figure>
+										</div>
+										<div class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1577951749359 liquid_vc_single_image-605738008f8e0">
+											<figure class="wpb_wrapper vc_figure">
+												<div class="vc_single_image-wrapper   vc_box_border_grey loaded "><img src="https://activeitzone.com/wp-content/uploads/2019/12/aiz-envato.svg" class="vc_single_image-img attachment-thumbnail" alt="" height="46" width="324" /></div>
+											</figure>
+										</div>
+										<div class="vc_row wpb_row vc_inner vc_row-fluid liquid-row-shadowbox-605738008faa2 vc_column-gap-0">
+											<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-xs-6 liquid-column-605738008fdf2">
+												<div class="vc_column-inner">
+													<div class="wpb_wrapper vc_custom_1577952005120">
+														<div class="wpb_wrapper-inner">
+															<div class="wpb_single_image wpb_content_element vc_align_right  liquid_vc_single_image-605738009762b">
+																<figure class="wpb_wrapper vc_figure">
+																	<div class="vc_single_image-wrapper   vc_box_border_grey loaded "><img src="https://activeitzone.com/wp-content/uploads/2020/05/codecanyon-aiz.svg" class="vc_single_image-img attachment-thumbnail" alt="" height="48" width="179" /></div>
+																</figure>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-xs-6 liquid-column-6057380097a3f vc_col-has-fill">
+												<div class="vc_column-inner">
+													<div class="wpb_wrapper vc_custom_1577951928686">
+														<div class="wpb_wrapper-inner">
+															<div class="wpb_single_image wpb_content_element vc_align_left  liquid_vc_single_image-605738009f620">
+																<figure class="wpb_wrapper vc_figure">
+																	<div class="vc_single_image-wrapper   vc_box_border_grey loaded "><img src="https://activeitzone.com/wp-content/uploads/2020/05/envato-aiz.svg" class="vc_single_image-img attachment-thumbnail" alt="" height="48" width="161" /></div>
+																</figure>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="wpb_column vc_column_container vc_col-sm-6 vc_col-md-4 vc_col-sm-offset-1 liquid-column-605738009ff40">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper vc_custom_1577697382596">
+									<div class="wpb_wrapper-inner">
+										<div class="ld-fancy-heading ld_fancy_heading_60573800a0071">
+											<h5 class="lqd-highlight-underline lqd-highlight-grow-left h5"><span class="ld-fh-txt"> Products</span></h5>
+										</div>
+										<div class="vc_wp_custommenu wpb_content_element footer-menu">
+											<div class="widget widget_nav_menu">
+												<div class="menu-footer-products-container">
+													<ul id="menu-footer-products" class="menu">
+														<li id="menu-item-9972" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9972"><a href="https://activeitzone.com/active-ecommerce-cms/">Active Ecommerce CMS</a></li>
+														<li id="menu-item-9975" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9975"><a href="https://activeitzone.com/active-super-shop/">Active Super Shop Multi-vendor CMS</a></li>
+														<li id="menu-item-9973" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9973"><a href="https://activeitzone.com/active-matrimonial-cms/">Active Matrimonial CMS</a></li>
+														<li id="menu-item-9974" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9974"><a href="https://activeitzone.com/active-newspaper-cms/">Active Newspaper CMS</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="ld-fancy-heading ld_fancy_heading_60573800a1e45">
+											<h5 class="lqd-highlight-underline lqd-highlight-grow-left h5"><span class="ld-fh-txt"> Addons</span></h5>
+										</div>
+										<div class="vc_wp_custommenu wpb_content_element footer-menu">
+											<div class="widget widget_nav_menu">
+												<div class="menu-footer-addons-container">
+													<ul id="menu-footer-addons" class="menu">
+														<li id="menu-item-10419" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10419"><a href="https://activeitzone.com/active-ecommerce-seller-subscription-add-on/">Active eCommerce Seller Subscription add-on</a></li>
+														<li id="menu-item-10092" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10092"><a href="https://activeitzone.com/active-ecommerce-otp-add-on/">Active eCommerce OTP add-on</a></li>
+														<li id="menu-item-10089" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10089"><a href="https://activeitzone.com/active-ecommerce-affiliate-add-on/">Active eCommerce Affiliate add-on</a></li>
+														<li id="menu-item-10094" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10094"><a href="https://activeitzone.com/active-ecommerce-pos-manager-add-on/">Active eCommerce POS Manager Add-on</a></li>
+														<li id="menu-item-10095" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10095"><a href="https://activeitzone.com/active-ecommerce-refund-add-on/">Active eCommerce Refund add-on</a></li>
+														<li id="menu-item-10091" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10091"><a href="https://activeitzone.com/active-ecommerce-offline-payment-add-on/">Active eCommerce Offline Payment Add-on</a></li>
+														<li id="menu-item-10090" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10090"><a href="https://activeitzone.com/active-ecommerce-club-point-add-on/">Active eCommerce Club Point add-on</a></li>
+														<li id="menu-item-10093" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10093"><a href="https://activeitzone.com/active-ecommerce-paytm-add-on/">Active eCommerce Paytm add-on</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="wpb_column vc_column_container vc_col-sm-4 liquid-column-60573800a5fa6">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper ">
+									<div class="wpb_wrapper-inner">
+										<div class="ld-fancy-heading ld_fancy_heading_60573800a6554">
+											<h5 class="lqd-highlight-underline lqd-highlight-grow-left h5"><span class="ld-fh-txt"> Knowledge base</span></h5>
+										</div>
+										<div class="vc_wp_custommenu wpb_content_element footer-menu">
+											<div class="widget widget_nav_menu">
+												<div class="menu-footer-documentation-container">
+													<ul id="menu-footer-documentation" class="menu">
+														<li id="menu-item-9996" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category current-menu-item menu-item-9996"><a href="index.html" aria-current="page">Active eCommerce CMS</a></li>
+														<li id="menu-item-10002" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10002"><a href="https://activeitzone.com/docs/active-ecommerce-pos-manager-add-on/">Active eCommerce POS Manager Add-on</a></li>
+														<li id="menu-item-10428" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10428"><a href="https://activeitzone.com/docs/active-ecommerce-seller-subscription-add-on/">Active eCommerce Seller Subscription Add-on</a></li>
+														<li id="menu-item-10001" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10001"><a href="https://activeitzone.com/docs/active-ecommerce-paytm-add-on/">Active eCommerce Paytm add-on</a></li>
+														<li id="menu-item-9998" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-9998"><a href="https://activeitzone.com/docs/active-ecommerce-club-point-add-on/">Active eCommerce Club Point Add-on</a></li>
+														<li id="menu-item-9997" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-9997"><a href="https://activeitzone.com/docs/active-ecommerce-affiliate-add-on/">Active eCommerce Affiliate add-on</a></li>
+														<li id="menu-item-10003" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10003"><a href="https://activeitzone.com/docs/active-ecommerce-refund-add-on/">Active eCommerce Refund add-on</a></li>
+														<li id="menu-item-10000" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10000"><a href="https://activeitzone.com/docs/active-ecommerce-otp-add-on/">Active eCommerce OTP add-on</a></li>
+														<li id="menu-item-9999" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-9999"><a href="https://activeitzone.com/docs/active-ecommerce-offline-payment-add-on/">Active eCommerce Offline Payment Add-on</a></li>
+														<li id="menu-item-10004" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10004"><a href="https://activeitzone.com/docs/active-matrimonial-cms/">Active Matrimonial CMS</a></li>
+														<li id="menu-item-10005" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10005"><a href="https://activeitzone.com/docs/active-newspaper-cms/">Active Newspaper CMS</a></li>
+														<li id="menu-item-10006" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10006"><a href="https://activeitzone.com/docs/active-super-shop/">Active Super Shop</a></li>
+														<li id="menu-item-10841" class="menu-item menu-item-type-taxonomy menu-item-object-docs_category menu-item-10841"><a href="https://activeitzone.com/docs/active-workdesk-cms/">Active Workdesk CMS</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="vc_row wpb_row vc_row-fluid vc_custom_1588749967984 row-contains-padding-top liquid-row-shadowbox-60573800a9720 vc_row-has-fill vc_row-o-content-middle vc_row-flex">
+				<div class="ld-container container">
+					<div class="row ld-row">
+						<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-8 text-left text-md-left liquid-column-60573800a9f0f">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper vc_custom_1577706744245">
+									<div class="wpb_wrapper-inner">
+										<div class="wpb_text_column wpb_content_element  vc_custom_1577706790475">
+											<div class="wpb_wrapper">
+												<p>© 2014 - 2020 Active It Zone  |  <a href="https://activeitzone.com/products-support-policy/">Products Support Policy</a>  |  <a href="https://activeitzone.com/customization-terms-policy/">Customization Terms &amp; Policy</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-4 text-center text-md-right liquid-column-60573800aab93">
+							<div class="vc_column-inner">
+								<div class="wpb_wrapper vc_custom_1577706757656">
+									<div class="wpb_wrapper-inner">
+										<ul class="social-icon branded round social-icon-sm ld_social_icons_60573800aad20" id=ld_social_icons_60573800aad20>
+											<li><a href="https://www.facebook.com/activeitzone" target="_blank"><i class="fa fa-facebook"></i></a></li>
+											<li><a href="https://twitter.com/activeitzone" target="_blank"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="https://www.youtube.com/channel/UCUYi7Y0C0n35uPRYkEh3iiw/" target="_blank"><i class="fa fa-youtube"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</footer> -->
+	</div><!-- .site-container -->
+	<script type='text/javascript'>
+		/* <![CDATA[ */
+		var liquidTheme = {
+			"uris": {
+				"ajax": "\/wp-admin\/admin-ajax.php"
+			}
+		};
+		/* ]]> */
+	</script>
+	<div id="fb-root"></div> <!-- Your customer chat code -->
+	<div class="fb-customerchat" attribution=setup_tool page_id="623725124311803"></div>
+	<script>
+		/* window.fbAsyncInit = function() {
+			FB.init({
+				xfbml: true,
+				version: 'v3.3'
+			});
+		};
+
+		(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s);
+			js.id = id;
+			js.src = '../../../connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk')); */
+	</script>
+	<script defer src="<?php echo e(static_asset('wp-content/cache/autoptimize/js/autoptimize_d3743fd57247c29178ae2799f067be96.js')); ?>"></script>
+</body>
+<!-- Mirrored from activeitzone.com/docs/active-ecommerce-cms/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Mar 2021 04:45:52 GMT -->
+
+</html>
+<!-- Page generated by LiteSpeed Cache 3.6.2 on 2021-03-21 12:11:44 --><?php /**PATH C:\xampp\htdocs\hec\resources\views/frontend/quote/doc.blade.php ENDPATH**/ ?>

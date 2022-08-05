@@ -1,0 +1,64 @@
+[2021-03-18 10:13:06] local.ERROR: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ecommerce_demo.translations' doesn't exist in C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Connection.php:331
+Stack trace:
+#0 C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Connection.php(331): PDO->prepare('select * from `...')
+#1 C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Connection.php(662): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Connection.php(629): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Connection.php(338): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(2159): Illuminate\Database\Con {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ecommerce_demo.translations' doesn't exist in C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:331
+Stack trace:
+#0 C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(331): PDO->prepare('select * from `...')
+#1 C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(662): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select * from `...', Array)
+#2 C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(629): Illuminate\\Database\\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(338): Illuminate\\Database\\Connection->run('select * from `...', Array, Object(Closure))
+#4 C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2159): Illuminate\\Database\\Con at C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:669)
+[stacktrace]
+#0 {main}
+"} 
+[2021-03-18 10:13:06] local.ERROR: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ecommerce_demo.translations' doesn't exist in C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Connection.php:331
+Stack trace:
+#0 C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Connection.php(331): PDO->prepare('select * from `...')
+#1 C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Connection.php(662): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Connection.php(629): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Connection.php(338): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(2159): Illuminate\Database\Con {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ecommerce_demo.translations' doesn't exist in C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:331
+Stack trace:
+#0 C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(331): PDO->prepare('select * from `...')
+#1 C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(662): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select * from `...', Array)
+#2 C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(629): Illuminate\\Database\\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(338): Illuminate\\Database\\Connection->run('select * from `...', Array, Object(Closure))
+#4 C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2159): Illuminate\\Database\\Con at C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:669)
+[stacktrace]
+#0 {main}
+"} 
+[2021-03-18 10:13:09] local.ERROR: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ecommerce_demo.translations' doesn't exist in C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Connection.php:331
+Stack trace:
+#0 C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Connection.php(331): PDO->prepare('select * from `...')
+#1 C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Connection.php(662): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Connection.php(629): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Connection.php(338): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(2159): Illuminate\Database\Con {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ecommerce_demo.translations' doesn't exist in C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:331
+Stack trace:
+#0 C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(331): PDO->prepare('select * from `...')
+#1 C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(662): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select * from `...', Array)
+#2 C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(629): Illuminate\\Database\\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(338): Illuminate\\Database\\Connection->run('select * from `...', Array, Object(Closure))
+#4 C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2159): Illuminate\\Database\\Con at C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:669)
+[stacktrace]
+#0 {main}
+"} 
+[2021-03-18 10:13:10] local.ERROR: Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ecommerce_demo.translations' doesn't exist in C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Connection.php:331
+Stack trace:
+#0 C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Connection.php(331): PDO->prepare('select * from `...')
+#1 C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Connection.php(662): Illuminate\Database\Connection->Illuminate\Database\{closure}('select * from `...', Array)
+#2 C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Connection.php(629): Illuminate\Database\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Connection.php(338): Illuminate\Database\Connection->run('select * from `...', Array, Object(Closure))
+#4 C:\xampp\htdocs\hec\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php(2159): Illuminate\Database\Con {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 1): Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ecommerce_demo.translations' doesn't exist in C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:331
+Stack trace:
+#0 C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(331): PDO->prepare('select * from `...')
+#1 C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(662): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}('select * from `...', Array)
+#2 C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(629): Illuminate\\Database\\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#3 C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(338): Illuminate\\Database\\Connection->run('select * from `...', Array, Object(Closure))
+#4 C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2159): Illuminate\\Database\\Con at C:\\xampp\\htdocs\\hec\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:669)
+[stacktrace]
+#0 {main}
+"} 

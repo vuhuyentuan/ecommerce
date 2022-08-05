@@ -1,0 +1,542 @@
+@extends('frontend.quote.frontend')
+@section('content')
+<main class="content" id="content">
+    <section
+    data-row-bg="{{static_asset('assets/img/AEC-Offline-Payment-Website-Landing-Page.jpg')}}"
+    data-parallax="true" data-parallax-options='{"parallaxBG":true}'
+    style="background-position:center center !important;" data-bg-image="url"
+    class="vc_row wpb_row vc_row-fluid vc_custom_1616755593916 liquid-row-shadowbox-60a2187706513 vc_row-has-fill vc_row-has-bg vc_row-o-full-height vc_row-o-columns-middle vc_row-flex">
+    <span class="row-bg-loader"></span>
+    <div class="ld-container container">
+        <div class="row ld-row">
+            <div
+                class="wpb_column vc_column_container vc_col-sm-10 vc_col-sm-offset-1 text-center liquid-column-60a21877068ca">
+                <div class="vc_column-inner">
+                    <div class="wpb_wrapper vc_custom_1606204886448">
+                        <div class="wpb_wrapper-inner">
+                            <div
+                                class="wpb_single_image wpb_content_element vc_align_center  vc_custom_1590738294401 liquid_vc_single_image-60a2187783400">
+                                <figure class="wpb_wrapper vc_figure">
+                                    <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="200"
+                                            height="200"
+                                            src="data:image/svg+xml;charset=utf-8,&lt;svg xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039; viewBox%3D&#039;0 0 200 200&#039;%2F&gt;"
+                                            class="vc_single_image-img attachment-full ld-lazyload" alt="" srcset=""
+                                            sizes="(max-width: 200px) 100vw, 200px"
+                                            data-src="{{static_asset('assets/img/addon-landing-offline.png')}}"
+                                            data-srcset="{{static_asset('assets/img/addon-landing-offline.png')}} 200w, {{static_asset('assets/img/addon-landing-offline.png')}} 150w"
+                                            data-aspect="1" /></div>
+                                </figure>
+                            </div>
+                            <div class="ld-fancy-heading ld_fancy_heading_60a2187783571">
+                                <h1 class="lqd-highlight-underline lqd-highlight-grow-left" data-fittext="true"
+                                    data-fittext-options='{"compressor":0.6,"maxFontSize":"50","minFontSize":"36"}'
+                                    data-split-text="true" data-custom-animations="true"
+                                    data-ca-options='{"triggerHandler":"inview","animationTarget":".lqd-words .split-inner","duration":"1200","startDelay":"220","delay":"150","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":50,"translateZ":-154,"rotateX":-73,"opacity":0},"animations":{"translateY":0,"translateZ":0,"rotateX":0,"opacity":1}}'
+                                    data-split-options='{"type":"words"}'><span class="ld-fh-txt"> <span
+                                            style="color: white; font-size: 38px"><strong>@lang('offline_payment.Halovi_eCommerce_Offline_Payment_add-on')</strong></span></span>
+                                </h1>
+                            </div>
+                            <div class="ld-empty-space ld_spacer_60a218778370c"><span
+                                    class="liquid_empty_space_inner"></span></div>
+                            <div class="ld-fancy-heading ld_fancy_heading_60a218778382c">
+                                <p class="lqd-highlight-underline lqd-highlight-grow-left" data-fittext="true"
+                                    data-fittext-options='{"compressor":0.6,"maxFontSize":"currentFontSize","minFontSize":"20"}'
+                                    data-split-text="true" data-custom-animations="true"
+                                    data-ca-options='{"triggerHandler":"inview","animationTarget":".lqd-lines .split-inner","duration":"1200","startDelay":"600","delay":"150","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":45,"translateZ":-109,"rotateX":-71,"opacity":0},"animations":{"translateY":0,"translateZ":0,"rotateX":0,"opacity":1}}'
+                                    data-split-options='{"type":"lines"}'><span
+                                        class="ld-fh-txt">@lang('offline_payment.Bank_payment_Cheque_payment_Custom_Payment')</span>
+                                </p>
+                            </div>
+                            <div class="vc_empty_space" style="height: 40px"><span
+                                    class="vc_empty_space_inner"></span></div>
+                            <div data-custom-animations="true"
+                                data-ca-options='{"triggerHandler":"inview","animationTarget":".wpb_column","duration":"1200","startDelay":"950","delay":"150","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":41,"translateZ":-118,"rotateX":-65,"opacity":0},"animations":{"translateY":0,"translateZ":0,"rotateX":0,"opacity":1}}'
+                                class="vc_row wpb_row vc_inner vc_row-fluid liquid-row-shadowbox-60a2187783cae vc_column-gap-5 vc_row-o-equal-height vc_row-o-content-middle vc_row-flex">
+                                <div
+                                    class="wpb_column vc_column_container vc_col-sm-6 text-md-right text-xs-center liquid-column-60a2187783f75">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper ">
+                                            <div class="wpb_wrapper-inner"><a href="#" target="_blank"
+                                                    class="btn btn-solid btn-sm circle btn-bordered border-thin ld_button_60a218778407f vc_custom_1591762901260">
+                                                    <span> <span style="padding-right: 18px; padding-left: 18px"
+                                                            class="btn-txt">@lang('offline_payment.Check_Demo')</span>
+                                                    </span>
+                                                </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="wpb_column vc_column_container vc_col-sm-6 text-md-left text-xs-center liquid-column-60a21877843f0">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper ">
+                                            <div class="wpb_wrapper-inner"><a href="#pricing"
+                                                    class="btn btn-default btn-sm circle btn-bordered border-thick ld_button_60a21877844c3 vc_custom_1587351507567"
+                                                    data-localscroll="true"> <span> <span
+                                                            class="btn-txt">@lang('offline_payment.Check_Pricing')</span>
+                                                    </span>
+                                                </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <section data-custom-animations="true"
+        data-ca-options='{"triggerHandler":"inview","animationTarget":".wpb_column","duration":"1200","delay":"180","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":60,"opacity":0},"animations":{"translateY":0,"opacity":1}}'
+        data-bg-image="url"
+        class="vc_row wpb_row vc_row-fluid all-features-icon vc_custom_1582620489012 row-contains-padding-top row-contains-padding-bottom liquid-row-shadowbox-60a21869641ce vc_row-has-fill vc_row-has-bg vc_column-gap-10 vc_row-o-equal-height vc_row-flex">
+        <div class="ld-container container">
+            <div class="row ld-row">
+                <div class="wpb_column vc_column_container vc_col-sm-12 liquid-column-60a2186964548">
+                    <div class="vc_column-inner">
+                        <div class="wpb_wrapper vc_custom_1582584173891">
+                            <div class="wpb_wrapper-inner">
+                                <div class="ld-fancy-heading ld_fancy_heading_60a218696462b">
+                                    <h4 class="lqd-highlight-underline lqd-highlight-grow-left"><span
+                                            class="ld-fh-txt">@lang('offline_payment.Standard_Offline_Payment_System')</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="wpb_column vc_column_container vc_col-sm-4 vc_col-lg-3 vc_col-md-3 vc_col-xs-6 liquid-column-60a2187787738">
+                    <div class="vc_column-inner">
+                        <div class="wpb_wrapper ">
+                            <div class="wpb_wrapper-inner">
+                                <div class="iconbox iconbox-round iconbox-shadow iconbox-circle iconbox-sm iconbox-heading-xs iconbox-filled ld_icon_box_60a2187787848"
+                                    id="ld_icon_box_60a2187787848" data-plugin-options='{"color":"rgb(230, 46, 4)"}'>
+                                    <div class="iconbox-icon-wrap"><span class="iconbox-icon-container"><i
+                                                class="fa fa-credit-card"></i></span></div>
+                                    <!-- /.iconbox-icon-wrap -->
+                                    <h3 class="font-weight-normal">@lang('offline_payment.3_Types_of_Offline_Payment')
+                                    </h3>
+                                </div>
+                                <div class="vc_empty_space" style="height: 30px"><span
+                                        class="vc_empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="wpb_column vc_column_container vc_col-sm-4 vc_col-lg-3 vc_col-md-3 vc_col-xs-6 liquid-column-60a2187787738">
+                    <div class="vc_column-inner">
+                        <div class="wpb_wrapper ">
+                            <div class="wpb_wrapper-inner">
+                                <div class="iconbox iconbox-round iconbox-shadow iconbox-circle iconbox-sm iconbox-heading-xs iconbox-filled ld_icon_box_60a2187787848"
+                                    id="ld_icon_box_60a2187787848" data-plugin-options='{"color":"rgb(230, 46, 4)"}'>
+                                    <div class="iconbox-icon-wrap"><span class="iconbox-icon-container"><i
+                                                class="fa fa-university"></i></span></div>
+                                    <!-- /.iconbox-icon-wrap -->
+                                    <h3 class="font-weight-normal">@lang('offline_payment.Bank_Transfer_Option')
+                                    </h3>
+                                </div>
+                                <div class="vc_empty_space" style="height: 30px"><span
+                                        class="vc_empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="wpb_column vc_column_container vc_col-sm-4 vc_col-lg-3 vc_col-md-3 vc_col-xs-6 liquid-column-60a2187787738">
+                    <div class="vc_column-inner">
+                        <div class="wpb_wrapper ">
+                            <div class="wpb_wrapper-inner">
+                                <div class="iconbox iconbox-round iconbox-shadow iconbox-circle iconbox-sm iconbox-heading-xs iconbox-filled ld_icon_box_60a2187787848"
+                                    id="ld_icon_box_60a2187787848" data-plugin-options='{"color":"rgb(230, 46, 4)"}'>
+                                    <div class="iconbox-icon-wrap"><span class="iconbox-icon-container"><i
+                                                class="fa fa-check-square-o"></i></span></div>
+                                    <!-- /.iconbox-icon-wrap -->
+                                    <h3 class="font-weight-normal">@lang('offline_payment.Check_Payment_Option')
+                                    </h3>
+                                </div>
+                                <div class="vc_empty_space" style="height: 30px"><span
+                                        class="vc_empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="wpb_column vc_column_container vc_col-sm-4 vc_col-lg-3 vc_col-md-3 vc_col-xs-6 liquid-column-60a2187787738">
+                    <div class="vc_column-inner">
+                        <div class="wpb_wrapper ">
+                            <div class="wpb_wrapper-inner">
+                                <div class="iconbox iconbox-round iconbox-shadow iconbox-circle iconbox-sm iconbox-heading-xs iconbox-filled ld_icon_box_60a2187787848"
+                                    id="ld_icon_box_60a2187787848" data-plugin-options='{"color":"rgb(230, 46, 4)"}'>
+                                    <div class="iconbox-icon-wrap"><span class="iconbox-icon-container"><i
+                                                class="fa fa-lock"></i></span></div>
+                                    <!-- /.iconbox-icon-wrap -->
+                                    <h3 class="font-weight-normal">@lang('offline_payment.Custom_Payment_Option')
+                                    </h3>
+                                </div>
+                                <div class="vc_empty_space" style="height: 30px"><span
+                                        class="vc_empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="wpb_column vc_column_container vc_col-sm-4 vc_col-lg-3 vc_col-md-3 vc_col-xs-6 liquid-column-60a2187787738">
+                    <div class="vc_column-inner">
+                        <div class="wpb_wrapper ">
+                            <div class="wpb_wrapper-inner">
+                                <div class="iconbox iconbox-round iconbox-shadow iconbox-circle iconbox-sm iconbox-heading-xs iconbox-filled ld_icon_box_60a2187787848"
+                                    id="ld_icon_box_60a2187787848" data-plugin-options='{"color":"rgb(230, 46, 4)"}'>
+                                    <div class="iconbox-icon-wrap"><span class="iconbox-icon-container"><i
+                                                class="fa fa-file"></i></span></div>
+                                    <!-- /.iconbox-icon-wrap -->
+                                    <h3 class="font-weight-normal">@lang('offline_payment.Unlimited_Bank_Account')
+                                    </h3>
+                                </div>
+                                <div class="vc_empty_space" style="height: 30px"><span
+                                        class="vc_empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="wpb_column vc_column_container vc_col-sm-4 vc_col-lg-3 vc_col-md-3 vc_col-xs-6 liquid-column-60a2187787738">
+                    <div class="vc_column-inner">
+                        <div class="wpb_wrapper ">
+                            <div class="wpb_wrapper-inner">
+                                <div class="iconbox iconbox-round iconbox-shadow iconbox-circle iconbox-sm iconbox-heading-xs iconbox-filled ld_icon_box_60a2187787848"
+                                    id="ld_icon_box_60a2187787848" data-plugin-options='{"color":"rgb(230, 46, 4)"}'>
+                                    <div class="iconbox-icon-wrap"><span class="iconbox-icon-container"><i
+                                                class="fa fa-money"></i></span></div>
+                                    <!-- /.iconbox-icon-wrap -->
+                                    <h3 class="font-weight-normal">@lang('offline_payment.Offline_Payments_Checkout')
+                                    </h3>
+                                </div>
+                                <div class="vc_empty_space" style="height: 30px"><span
+                                        class="vc_empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section
+        class="vc_row wpb_row vc_row-fluid vc_custom_1587032513478 row-contains-padding-top row-contains-padding-bottom liquid-row-shadowbox-60a2186967016">
+        <div class="ld-container container">
+            <div class="row ld-row">
+                <div
+                    class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-offset-3 vc_col-md-6 text-center liquid-column-60a2186967334">
+                    <div class="vc_column-inner">
+                        <div class="wpb_wrapper " data-custom-animations="true"
+                            data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":700,"delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"translateY":33,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
+                            <div class="wpb_wrapper-inner">
+                                <div class="ld-fancy-heading ld_fancy_heading_60a218696746b">
+                                    <h2 class="lqd-highlight-underline lqd-highlight-grow-left"><span
+                                            class="ld-fh-txt"> @lang('offline_payment.How_it_Works')</span></h2>
+                                </div>
+                                <div class="ld-empty-space ld_spacer_60a218696752c"><span
+                                        class="liquid_empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section data-bg-image="url"
+        class="vc_row wpb_row vc_row-fluid vc_custom_1587346659554 row-contains-padding-top row-contains-padding-bottom liquid-row-shadowbox-60a21869678a7 vc_row-has-fill vc_row-has-bg vc_row-o-content-middle vc_row-flex">
+        <div class="ld-container container">
+            <div class="row ld-row">
+                <div
+                    class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-offset-0 vc_col-md-6 text-center liquid-column-60a2186967bdb">
+                    <div class="vc_column-inner">
+                        <div class="wpb_wrapper ">
+                            <div class="wpb_wrapper-inner">
+                                <div id="ld_images_group_container_60a2186967c84"
+                                    class="liquid-img-group-container ld_images_group_container_60a2186967c84">
+                                    <div class="liquid-img-group-inner">
+                                        <div id="ld_images_group_element_60a2186967d9d"
+                                            class="liquid-img-group-single ld_images_group_element_60a2186967d9d"
+                                            data-shadow-style="4" data-roundness="4" data-inview="true"
+                                            data-animate-shadow="true">
+                                            <div class="liquid-img-group-img-container">
+                                                <div class="liquid-img-container-inner">
+                                                    <figure><img width="1920" height="968"
+                                                            src="data:image/svg+xml;charset=utf-8,&lt;svg xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039; viewBox%3D&#039;0 0 1920 968&#039;%2F&gt;"
+                                                            class="attachment-full size-full ld-lazyload" alt=""
+                                                            srcset="" sizes="(max-width: 1920px) 100vw, 1920px"
+                                                            data-src="{{ static_asset('assets/img/Set-up-your-own-bank-payment-check-payment-custom-payment-with-Checkout-ThumbnailInstruction.png') }}"
+                                                            data-aspect="1.9834710743802" /></figure>
+                                                </div><!-- /.liquid-img-container-inner -->
+                                            </div><!-- /.liquid-img-group-content -->
+                                        </div><!-- /.liquid-img-group-single -->
+                                    </div><!-- /.liquid-img-group-inner -->
+                                </div><!-- /.liquid-img-group-container -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6 liquid-column-60a2186977e61 liquid-column-responsive-60a2186977e62 vc_col-has-fill">
+                    <div class="vc_column-inner">
+                        <div class="wpb_wrapper vc_custom_1587360090457" data-custom-animations="true"
+                            data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1600","delay":"160","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":30,"opacity":0},"animations":{"translateY":0,"opacity":1}}'
+                            style="background-position:left top !important;">
+                            <div class="wpb_wrapper-inner">
+                                <div class="ld-fancy-heading ld_fancy_heading_60a2186977f87">
+                                    <h4 class="lqd-highlight-underline lqd-highlight-fadein"><span
+                                            class="ld-fh-txt"> <strong><span style="color: #575a63">@lang('offline_payment.set_up')</span></strong></p>
+                                            <p>
+                                        </span></h4>
+                                </div>
+                                <div class="ld-empty-space ld_spacer_60a2186978118"><span
+                                        class="liquid_empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section data-bg-image="url"
+        class="vc_row wpb_row vc_row-fluid vc_custom_1582582297559 row-contains-padding-top row-contains-padding-bottom liquid-row-shadowbox-60a218697840d vc_row-has-fill vc_row-has-bg vc_row-o-content-middle vc_row-flex">
+        <div class="ld-container container">
+            <div class="row ld-row">
+                <div
+                    class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6 liquid-column-60a2186978777 liquid-column-responsive-60a2186978779">
+                    <div class="vc_column-inner">
+                        <div class="wpb_wrapper " data-custom-animations="true"
+                            data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1600","delay":"160","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":30,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
+                            <div class="wpb_wrapper-inner">
+                                <div class="ld-fancy-heading ld_fancy_heading_60a2186978852">
+                                    <h4 class="lqd-highlight-underline lqd-highlight-grow-left"><span
+                                            class="ld-fh-txt"> <strong><span style="color: #575a63">@lang('offline_payment.Customers_can')</span></strong></span></h4>
+                                </div>
+                                <div class="ld-empty-space ld_spacer_60a21869789af"><span
+                                        class="liquid_empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-offset-0 vc_col-md-6 text-center liquid-column-60a2186978c92">
+                    <div class="vc_column-inner">
+                        <div class="wpb_wrapper ">
+                            <div class="wpb_wrapper-inner">
+                                <div id="ld_images_group_container_60a2186978e9c"
+                                    class="liquid-img-group-container ld_images_group_container_60a2186978e9c">
+                                    <div class="liquid-img-group-inner">
+                                        <div id="ld_images_group_element_60a2186979013"
+                                            class="liquid-img-group-single ld_images_group_element_60a2186979013"
+                                            data-shadow-style="4" data-roundness="4" data-inview="true"
+                                            data-animate-shadow="true">
+                                            <div class="liquid-img-group-img-container">
+                                                <div class="liquid-img-container-inner">
+                                                    <figure><img width="1902" height="912"
+                                                            src="data:image/svg+xml;charset=utf-8,&lt;svg xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039; viewBox%3D&#039;0 0 1902 912&#039;%2F&gt;"
+                                                            class="attachment-full size-full ld-lazyload" alt=""
+                                                            srcset="" sizes="(max-width: 1902px) 100vw, 1902px"
+                                                            data-src="{{ static_asset('assets/img/Customers-can-select-those-offline-payment-options-during-checkout.png') }}"
+                                                            data-aspect="2.0855263157895" /></figure>
+                                                </div><!-- /.liquid-img-container-inner -->
+                                            </div><!-- /.liquid-img-group-content -->
+                                        </div><!-- /.liquid-img-group-single -->
+                                    </div><!-- /.liquid-img-group-inner -->
+                                </div><!-- /.liquid-img-group-container -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section data-bg-image="url"
+        class="vc_row wpb_row vc_row-fluid vc_custom_1582578619813 row-contains-padding-top row-contains-padding-bottom liquid-row-shadowbox-60a21869861e2 vc_row-has-fill vc_row-has-bg vc_row-o-content-middle vc_row-flex">
+        <div class="ld-container container">
+            <div class="row ld-row">
+                <div
+                    class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-offset-0 vc_col-md-6 text-center liquid-column-60a21869864ee">
+                    <div class="vc_column-inner">
+                        <div class="wpb_wrapper ">
+                            <div class="wpb_wrapper-inner">
+                                <div id="ld_images_group_container_60a21869865b9"
+                                    class="liquid-img-group-container ld_images_group_container_60a21869865b9">
+                                    <div class="liquid-img-group-inner">
+                                        <div id="ld_images_group_element_60a21869866f4"
+                                            class="liquid-img-group-single ld_images_group_element_60a21869866f4"
+                                            data-shadow-style="4" data-roundness="4" data-inview="true"
+                                            data-animate-shadow="true">
+                                            <div class="liquid-img-group-img-container">
+                                                <div class="liquid-img-container-inner">
+                                                    <figure><img width="1902" height="968"
+                                                            src="data:image/svg+xml;charset=utf-8,&lt;svg xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039; viewBox%3D&#039;0 0 1902 968&#039;%2F&gt;"
+                                                            class="attachment-full size-full ld-lazyload" alt=""
+                                                            srcset="" sizes="(max-width: 1902px) 100vw, 1902px"
+                                                            data-src="{{ static_asset('assets/img/Admin-can-check-that-transaction-id-screenshot-and-change-payment-status-‘Paid’.png') }}"
+                                                            data-aspect="1.9648760330579" /></figure>
+                                                </div><!-- /.liquid-img-container-inner -->
+                                            </div><!-- /.liquid-img-group-content -->
+                                        </div><!-- /.liquid-img-group-single -->
+                                    </div><!-- /.liquid-img-group-inner -->
+                                </div><!-- /.liquid-img-group-container -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6 liquid-column-60a2186a1be0f liquid-column-responsive-60a2186a1be11">
+                    <div class="vc_column-inner">
+                        <div class="wpb_wrapper " data-custom-animations="true"
+                            data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1600","delay":"160","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":30,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
+                            <div class="wpb_wrapper-inner">
+                                <div class="ld-fancy-heading ld_fancy_heading_60a2186a1bf3d">
+                                    <h4 class="lqd-highlight-underline lqd-highlight-grow-left"><span
+                                            class="ld-fh-txt"> <strong><span style="color: #575a63">@lang('offline_payment.After_paying')</span></strong></span></h4>
+                                </div>
+                                <div class="ld-empty-space ld_spacer_60a2186a1c0de"><span
+                                        class="liquid_empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section data-bg-image="url"
+        class="vc_row wpb_row vc_row-fluid vc_custom_1582582297559 row-contains-padding-top row-contains-padding-bottom liquid-row-shadowbox-60a2186a1c3ef vc_row-has-fill vc_row-has-bg vc_row-o-content-middle vc_row-flex">
+        <div class="ld-container container">
+            <div class="row ld-row">
+                <div
+                    class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6 liquid-column-60a2186a1c716 liquid-column-responsive-60a2186a1c717">
+                    <div class="vc_column-inner">
+                        <div class="wpb_wrapper " data-custom-animations="true"
+                            data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1600","delay":"160","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":30,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
+                            <div class="wpb_wrapper-inner">
+                                <div class="ld-fancy-heading ld_fancy_heading_60a2186a1c827">
+                                    <h4 class="lqd-highlight-underline lqd-highlight-grow-left"><span
+                                            class="ld-fh-txt"> <strong><span style="color: #575a63">@lang('offline_payment.Admin_can')</span></strong></span></h4>
+                                </div>
+                                <div class="ld-fancy-heading ld_fancy_heading_60a2186a1c99f"></div>
+                                <div class="ld-empty-space ld_spacer_60a2186a1ca86"><span
+                                        class="liquid_empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-offset-0 vc_col-md-6 text-center liquid-column-60a2186a1cd4a">
+                    <div class="vc_column-inner">
+                        <div class="wpb_wrapper ">
+                            <div class="wpb_wrapper-inner">
+                                <div id="ld_images_group_container_60a2186a1cdf1"
+                                    class="liquid-img-group-container ld_images_group_container_60a2186a1cdf1">
+                                    <div class="liquid-img-group-inner">
+                                        <div id="ld_images_group_element_60a2186a1cf5a"
+                                            class="liquid-img-group-single ld_images_group_element_60a2186a1cf5a"
+                                            data-shadow-style="4" data-roundness="4" data-inview="true"
+                                            data-animate-shadow="true">
+                                            <div class="liquid-img-group-img-container">
+                                                <div class="liquid-img-container-inner">
+                                                    <figure><img width="555" height="372"
+                                                            src="data:image/svg+xml;charset=utf-8,&lt;svg xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039; viewBox%3D&#039;0 0 555 372&#039;%2F&gt;"
+                                                            class="attachment-full size-full ld-lazyload" alt=""
+                                                            srcset="" sizes="(max-width: 555px) 100vw, 555px"download-3-re
+                                                            data-src="{{ static_asset('assets/img/download-3-re.png') }}"
+                                                            data-aspect="1.491935483871" /></figure>
+                                                </div><!-- /.liquid-img-container-inner -->
+                                            </div><!-- /.liquid-img-group-content -->
+                                        </div><!-- /.liquid-img-group-single -->
+                                    </div><!-- /.liquid-img-group-inner -->
+                                </div><!-- /.liquid-img-group-container -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section data-bg-image="url"
+        class="vc_row wpb_row vc_row-fluid vc_custom_1582578619813 row-contains-padding-top row-contains-padding-bottom liquid-row-shadowbox-60a2186a28769 vc_row-has-fill vc_row-has-bg vc_row-o-content-middle vc_row-flex">
+        <div class="ld-container container">
+            <div class="row ld-row">
+                <div
+                    class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-offset-0 vc_col-md-6 text-center liquid-column-60a2186a28eed">
+                    <div class="vc_column-inner">
+                        <div class="wpb_wrapper ">
+                            <div class="wpb_wrapper-inner">
+                                <div id="ld_images_group_container_60a2186a290c8"
+                                    class="liquid-img-group-container ld_images_group_container_60a2186a290c8">
+                                    <div class="liquid-img-group-inner">
+                                        <div id="ld_images_group_element_60a2186a2945a"
+                                            class="liquid-img-group-single ld_images_group_element_60a2186a2945a"
+                                            data-shadow-style="4" data-roundness="4" data-inview="true"
+                                            data-animate-shadow="true">
+                                            <div class="liquid-img-group-img-container">
+                                                <div class="liquid-img-container-inner">
+                                                    <figure><img width="1920" height="2450"
+                                                            src="data:image/svg+xml;charset=utf-8,&lt;svg xmlns%3D&#039;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#039; viewBox%3D&#039;0 0 1920 2450&#039;%2F&gt;"
+                                                            class="attachment-full size-full ld-lazyload" alt=""
+                                                            srcset="" sizes="(max-width: 1920px) 100vw, 1920px"
+                                                            data-src="{{ static_asset('assets/img/And-now-admin-can-proceed-with-delivery.png') }}"
+                                                            data-aspect="0.78367346938776" /></figure>
+                                                </div><!-- /.liquid-img-container-inner -->
+                                            </div><!-- /.liquid-img-group-content -->
+                                        </div><!-- /.liquid-img-group-single -->
+                                    </div><!-- /.liquid-img-group-inner -->
+                                </div><!-- /.liquid-img-group-container -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6 liquid-column-60a2186b12703 liquid-column-responsive-60a2186b12705">
+                    <div class="vc_column-inner">
+                        <div class="wpb_wrapper " data-custom-animations="true"
+                            data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":"1600","delay":"160","easing":"easeOutQuint","direction":"forward","initValues":{"translateY":30,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
+                            <div class="wpb_wrapper-inner">
+                                <div class="ld-fancy-heading ld_fancy_heading_60a2186b1280d">
+                                    <h4 class="lqd-highlight-underline lqd-highlight-grow-left"><span
+                                            class="ld-fh-txt"> <strong><span style="color: #575a63">@lang('offline_payment.And_now')</span></strong></p>
+                                            <p>
+                                        </span></h4>
+                                </div>
+                                <div class="ld-empty-space ld_spacer_60a2186b12a27"><span
+                                        class="liquid_empty_space_inner"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="pricing"
+            class="vc_row wpb_row vc_row-fluid vc_custom_1587032534127 row-contains-padding-top row-contains-padding-bottom liquid-row-shadowbox-60a2187d0cf64">
+            <div class="ld-container container">
+                <div class="row ld-row">
+                    <div
+                        class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-offset-3 vc_col-md-6 text-center liquid-column-60a2187d0d28c">
+                        <div class="vc_column-inner">
+                            <div class="wpb_wrapper " data-custom-animations="true"
+                                data-ca-options='{"triggerHandler":"inview","animationTarget":"all-childs","duration":700,"delay":100,"easing":"easeOutQuint","direction":"forward","initValues":{"translateY":33,"opacity":0},"animations":{"translateY":0,"opacity":1}}'>
+                                <div class="wpb_wrapper-inner">
+                                    <div class="ld-fancy-heading ld_fancy_heading_60a2187d0d356">
+                                        <h2 class="lqd-highlight-underline lqd-highlight-grow-left"><span class="ld-fh-txt">
+                                                @lang('offline_payment.Pricing')</span></h2>
+                                    </div>
+                                    <div class="ld-empty-space ld_spacer_60a2187d0d446"><span
+                                            class="liquid_empty_space_inner"></span></div>
+                                </div>
+                                <div style="margin-top: 50px; margin-bottom: 100px;" class="pricing-table-footer">
+                                    <a href="http://halovi.com.vn/contact" target="_blank"
+                                        class="btn btn-solid btn-lg circle btn-bordered border-thick ld_button_6057a9a0c1c52">
+                                        <span> <span class="btn-txt">@lang('pricing.Contact_us')</span> </span> </a>
+                                </div><!-- /.pricing-table-footer -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+</main><!-- #content -->
+@endsection
