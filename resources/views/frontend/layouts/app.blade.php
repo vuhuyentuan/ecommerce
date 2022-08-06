@@ -333,7 +333,7 @@
 
         function removeFromCart(key){
             $.post('{{ route('cart.removeFromCart') }}', {
-                _token  : AIZ.data.csrf, 
+                _token  : AIZ.data.csrf,
                 id      :  key
             }, function(data){
                 updateNavCart();
